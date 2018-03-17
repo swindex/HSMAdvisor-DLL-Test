@@ -32,6 +32,8 @@ Public Class Form1
 
 		'Set workpiece material
 		'Use GetMaterialsTable() to get IDs and Names of materials
+		Dim materialsTable = GetMaterialsTable()
+
 		cut.SetMaterial(25)
 
 		'Set tool type.

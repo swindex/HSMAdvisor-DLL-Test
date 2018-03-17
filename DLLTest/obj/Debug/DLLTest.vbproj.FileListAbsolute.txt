@@ -10,3 +10,15 @@ C:\Users\Eldar\Documents\Visual Studio 2015\Projects\DLLTest\DLLTest\obj\Debug\D
 C:\Users\Eldar\Documents\Visual Studio 2015\Projects\DLLTest\DLLTest\obj\Debug\WindowsApplication1.Form1.resources
 C:\Users\Eldar\Documents\Visual Studio 2015\Projects\DLLTest\DLLTest\bin\Debug\HSMAdvisor.pdb
 C:\Users\Eldar\Documents\Visual Studio 2015\Projects\DLLTest\DLLTest\bin\Debug\HSMAdvisor.dll
+C:\Users\Eldar\Documents\Visual Studio 2013\Projects\DLLTest\DLLTest\obj\Debug\DLLTest.exe
+C:\Users\Eldar\Documents\Visual Studio 2013\Projects\DLLTest\DLLTest\bin\Debug\DLLTest.exe
+C:\Users\Eldar\Documents\Visual Studio 2013\Projects\DLLTest\DLLTest\bin\Debug\DLLTest.pdb
+C:\Users\Eldar\Documents\Visual Studio 2013\Projects\DLLTest\DLLTest\bin\Debug\DLLTest.xml
+C:\Users\Eldar\Documents\Visual Studio 2013\Projects\DLLTest\DLLTest\bin\Debug\HSMAdvisor.dll
+C:\Users\Eldar\Documents\Visual Studio 2013\Projects\DLLTest\DLLTest\bin\Debug\HSMAdvisor.pdb
+C:\Users\Eldar\Documents\Visual Studio 2013\Projects\DLLTest\DLLTest\obj\Debug\DLLTest.vbprojResolveAssemblyReference.cache
+C:\Users\Eldar\Documents\Visual Studio 2013\Projects\DLLTest\DLLTest\obj\Debug\WindowsApplication1.Form1.resources
+C:\Users\Eldar\Documents\Visual Studio 2013\Projects\DLLTest\DLLTest\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\Eldar\Documents\Visual Studio 2013\Projects\DLLTest\DLLTest\obj\Debug\DLLTest.vbproj.GenerateResource.Cache
+C:\Users\Eldar\Documents\Visual Studio 2013\Projects\DLLTest\DLLTest\obj\Debug\DLLTest.xml
+C:\Users\Eldar\Documents\Visual Studio 2013\Projects\DLLTest\DLLTest\obj\Debug\DLLTest.pdb
