@@ -1,0 +1,164 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ObjectToolDatabase
+</name>
+</assembly>
+<members>
+<member name="T:ObjectToolDatabase.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ObjectToolDatabase.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ObjectToolDatabase.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:ObjectToolDatabase.DatabaseConverterInterface">
+ <summary>
+ Converter DLLs must implement this interface 
+ </summary>
+</member>
+<member name="M:ObjectToolDatabase.DatabaseConverterInterface.IsReadImplemented">
+ <summary>
+ Return True if implementation can Read Custom Database Files
+ </summary>
+ <returns>boolean</returns>
+</member>
+<member name="M:ObjectToolDatabase.DatabaseConverterInterface.IsWriteImplemented">
+ <summary>
+ Return True if implementation can Write Custom Database Files
+ </summary>
+ <returns>boolean</returns>
+</member>
+<member name="M:ObjectToolDatabase.DatabaseConverterInterface.ReadDataBase(System.String)">
+ <summary>
+ Read FileName and return ToolDataBase.DataBase object
+ </summary>
+ <param name="FileName">File Name</param>
+ <returns></returns>
+</member>
+<member name="M:ObjectToolDatabase.DatabaseConverterInterface.WriteDataBase(ObjectToolDatabase.ToolDataBase.DataBase,System.String)">
+ <summary>
+ Write ToolDataBase.DataBase into FileName
+ </summary>
+ <param name="db">ToolDataBase.DataBase</param>
+ <param name="FileName">File Name</param>
+ <returns></returns>
+</member>
+<member name="M:ObjectToolDatabase.MachineDataBase.Machine.Copy(System.Boolean,System.Boolean)">
+ <summary>
+ Create a carbon copy of the Cut 
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ObjectToolDatabase.MachineDataBase.PCurve.Copy">
+ <summary>
+ Create a carbon copy of the Cut 
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ObjectToolDatabase.ToolDataBase.CustomIPT.Copy">
+ <summary>
+ Create a carbon copy of the CustomSFM 
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ObjectToolDatabase.ToolDataBase.CustomSFM.Copy(System.Boolean)">
+ <summary>
+ Create a carbon copy of the CustomSFM 
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ObjectToolDatabase.ToolDataBase.Cut.Copy(System.Boolean)">
+ <summary>
+ Create a carbon copy of the Cut 
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ObjectToolDatabase.ToolDataBase.Holder.Copy(System.Boolean)">
+ <summary>
+ Create a carbon copy of the Holder
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ObjectToolDatabase.ToolDataBase.Tool.Copy(System.Boolean,System.Boolean)">
+ <summary>
+ Create a carbon copy of the Tool
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ObjectToolDatabase.ToolDataBase.DataBase.AddTool(ObjectToolDatabase.ToolDataBase.Tool)">
+ <summary>
+ Add Tool and all its cuts into the database
+ </summary>
+ <param name="tool"></param>
+</member>
+<member name="M:ObjectToolDatabase.ToolDataBase.DataBase.UpdateTool(ObjectToolDatabase.ToolDataBase.Tool)">
+ <summary>
+ Save updated Tool to the database
+ </summary>
+ <param name="tool"></param>
+</member>
+<member name="M:ObjectToolDatabase.ToolDataBase.DataBase.DeleteTool(ObjectToolDatabase.ToolDataBase.Tool)">
+ <summary>
+ Delete tool and all its cuts from the database
+ </summary>
+ <param name="tool"></param>
+</member>
+<member name="M:ObjectToolDatabase.ToolDataBase.DataBase.DeleteToolTry(System.String)">
+ <summary>
+ Delete tool and all its cuts from the database
+ </summary>
+ <param name="tool"></param>
+</member>
+<member name="M:ObjectToolDatabase.ToolDataBase.DataBase.UpdateCut(ObjectToolDatabase.ToolDataBase.Cut)">
+ <summary>
+ Save updated Cut to the database
+ </summary>
+ <param name="cut"></param>
+</member>
+<member name="M:ObjectToolDatabase.ToolDataBase.DataBase.AddCut(ObjectToolDatabase.ToolDataBase.Cut)">
+ <summary>
+ Add Cut to the database
+ </summary>
+ <param name="cut"></param>
+</member>
+<member name="M:ObjectToolDatabase.ToolDataBase.DataBase.AddLibrary(System.String)">
+ <summary>
+ Add Library to DB. Name must be unique
+ </summary>
+ <param name="name"></param>
+</member>
+<member name="M:ObjectToolDatabase.ToolDataBase.DataBase.AddMachineInterface(System.String)">
+ <summary>
+ Add Machine Interface to DB. Name must be unique
+ </summary>
+ <param name="name"></param>
+ <returns></returns>
+</member>
+<member name="M:ObjectToolDatabase.ToolDataBase.DataBase.AddMachineInterface(ObjectToolDatabase.ToolDataBase.MachineInterface)">
+ <summary>
+ Add Machine Interface to database. Name must be unique
+ </summary>
+ <param name="mi"></param>
+ <returns></returns>
+</member>
+<member name="M:ObjectToolDatabase.ObjectExtensions.Copy``1(``0)">
+ <summary>
+ Create a shallow copy of an object
+ </summary>
+ <typeparam name="T"></typeparam>
+ <param name="source"></param>
+ <returns></returns>
+</member>
+</members>
+</doc>

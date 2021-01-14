@@ -1,0 +1,1561 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+HSMAdvisor
+</name>
+</assembly>
+<members>
+<member name="T:HSMAdvisor.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources._82deg_Flat_Head_Screw">
+<summary>
+  Looks up a localized string similar to From: &lt;��������� Microsoft Internet Explorer 5&gt;
+Subject: 82? Flat Head Screw
+Date: Tue, 9 Sep 2014 04:59:00 -0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type=&quot;text/html&quot;;
+	boundary=&quot;----=_NextPart_000_0000_01CFCBEA.C4C563D0&quot;
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5512
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CFCBEA.C4C563D0
+Content-Type: text/html;
+	charset=&quot;utf-8&quot;
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:// [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources._90deg_Flat_Head_Screw">
+<summary>
+  Looks up a localized string similar to From: &lt;Saved by Windows Internet Explorer 8&gt;
+Subject: =?Windows-1252?Q?90=BA_Flat_Head_Screw?=
+Date: Mon, 22 Dec 2014 17:49:21 -0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type=&quot;text/html&quot;;
+	boundary=&quot;----=_NextPart_000_0013_01D01E17.875F8690&quot;
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.6157
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0013_01D01E17.875F8690
+Content-Type: text/html;
+	charset=&quot;utf-8&quot;
+Content-Transfer-Encoding: quoted-printable
+Conten [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.add">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.bolt_hole">
+<summary>
+  Looks up a localized string similar to From: &lt;Сохранено Microsoft Internet Explorer 5&gt;
+Subject: Title
+Date: Thu, 7 Aug 2014 00:48:31 -0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type=&quot;text/html&quot;;
+	boundary=&quot;----=_NextPart_000_0000_01D02214.354132E0&quot;
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5512
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01D02214.354132E0
+Content-Type: text/html;
+	charset=&quot;utf-8&quot;
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Plugins/in [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.bolt_hole_partial">
+<summary>
+  Looks up a localized string similar to From: &lt;Сохранено Microsoft Internet Explorer 5&gt;
+Subject: Title
+Date: Thu, 7 Aug 2014 00:48:31 -0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type=&quot;text/html&quot;;
+	boundary=&quot;----=_NextPart_000_0000_01D02214.354132E0&quot;
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5512
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01D02214.354132E0
+Content-Type: text/html;
+	charset=&quot;utf-8&quot;
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Plugins/in [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.bolt_line">
+<summary>
+  Looks up a localized string similar to From: &lt;Сохранено Microsoft Internet Explorer 5&gt;
+Subject: Title
+Date: Thu, 7 Aug 2014 00:48:31 -0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type=&quot;text/html&quot;;
+	boundary=&quot;----=_NextPart_000_0000_01D02214.354132E0&quot;
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5512
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01D02214.354132E0
+Content-Type: text/html;
+	charset=&quot;utf-8&quot;
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Plugins/in [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.btn_contracted">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.btn_expanded">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.Calculator">
+<summary>
+  Looks up a localized string similar to From: &lt;Сохранено Microsoft Internet Explorer 5&gt;
+Subject: Title
+Date: Thu, 7 Aug 2014 00:48:31 -0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type=&quot;text/html&quot;;
+	boundary=&quot;----=_NextPart_000_0000_01D02214.354132E0&quot;
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5512
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01D02214.354132E0
+Content-Type: text/html;
+	charset=&quot;utf-8&quot;
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Plugins/in [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.cancel_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.CBoreCutParameters">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.check">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.check_save">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.Circ_Comp_internal">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.Cloud_Animated">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.cloud_n">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.cloud_t">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.CMS">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.DB_status_Working">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.Deep">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.default_machines">
+<summary>
+  Looks up a localized string similar to &lt;NewDataSet&gt;
+  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;
+    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:Locale=&quot;en-US&quot;&gt;
+      &lt;xs:complexType&gt;
+        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;
+          &lt;xs:element name=&quot;skv_fswizard_machine&quot;&gt;
+            &lt;xs:complexType&gt;
+              &lt;xs:sequence&gt;
+                &lt;xs:element name=&quot;name&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;
+              [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.default_settings">
+<summary>
+  Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;SettingsDataBase xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;
+  &lt;Settings&gt;
+    &lt;confirm_calculation_delete&gt;0&lt;/confirm_calculation_delete&gt;
+    &lt;swicth_to_warnings&gt;1&lt;/swicth_to_warnings&gt;
+    &lt;window_height&gt;726&lt;/window_height&gt;
+    &lt;window_width&gt;1207&lt;/window_width&gt;
+    &lt;window_x&gt;145&lt;/window_x&gt;
+    &lt;window_y&gt;97&lt;/window_y&gt;
+    &lt;window_state&gt;0&lt;/window_state&gt;
+    &lt;reset_tooldata_upon_tooltype&gt;1&lt;/reset_tooldata_u [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.dialog_bg3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.DOWN">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.download">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.drill_point">
+<summary>
+  Looks up a localized string similar to From: &lt;Сохранено Microsoft Internet Explorer 5&gt;
+Subject: Title
+Date: Thu, 7 Aug 2014 00:48:31 -0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type=&quot;text/html&quot;;
+	boundary=&quot;----=_NextPart_000_0000_01D02214.354132E0&quot;
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5512
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01D02214.354132E0
+Content-Type: text/html;
+	charset=&quot;utf-8&quot;
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Plugins/in [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.DrillCutParameters">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.Drills">
+<summary>
+  Looks up a localized string similar to From: &lt;Сохранено Microsoft Internet Explorer 5&gt;
+Subject: Title
+Date: Thu, 7 Aug 2014 00:48:31 -0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type=&quot;text/html&quot;;
+	boundary=&quot;----=_NextPart_000_0000_01D02214.354132E0&quot;
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5512
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01D02214.354132E0
+Content-Type: text/html;
+	charset=&quot;utf-8&quot;
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Plugins/in [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.edit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.English">
+<summary>
+  Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; standalone=&quot;yes&quot;?&gt;
+&lt;language&gt;
+  &lt;settings&gt;
+    &lt;lang_code&gt;EN&lt;/lang_code&gt;
+    &lt;lang_scale_x&gt;1&lt;/lang_scale_x&gt;
+    &lt;lang_scale_y&gt;1&lt;/lang_scale_y&gt;
+  &lt;/settings&gt;
+  &lt;controls&gt;
+    &lt;LB_Type&gt;Type&lt;/LB_Type&gt;
+    &lt;CHK_DefaultForTooltypes&gt;Make default for supported tool types&lt;/CHK_DefaultForTooltypes&gt;
+    &lt;CHK_DefaultForTooltypes_tooltip&gt;Automatically select this machine when any of the supported tool types are selected&lt;/CHK_DefaultForTooltypes_tooltip&gt;
+    &lt;FSWIZARD_TAB&gt;Speeds and Feeds&lt; [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.fa_download">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.feedback">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.Fillet_Calculator">
+<summary>
+  Looks up a localized string similar to From: &lt;Сохранено Microsoft Internet Explorer 5&gt;
+Subject: Title
+Date: Thu, 7 Aug 2014 00:48:31 -0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type=&quot;text/html&quot;;
+	boundary=&quot;----=_NextPart_000_0000_01D02214.354132E0&quot;
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5512
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01D02214.354132E0
+Content-Type: text/html;
+	charset=&quot;utf-8&quot;
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Plugins/in [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.flag_green">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.flag_red">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.flag_yellow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.floatie">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.floatingwindow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.forums">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.GDTReference">
+<summary>
+  Looks up a localized string similar to From: &lt;Сохранено Microsoft Internet Explorer 5&gt;
+Subject: Title
+Date: Thu, 7 Aug 2014 00:48:31 -0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type=&quot;text/html&quot;;
+	boundary=&quot;----=_NextPart_000_0000_01D02214.354132E0&quot;
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5512
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01D02214.354132E0
+Content-Type: text/html;
+	charset=&quot;utf-8&quot;
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Plugins/in [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.gray_header">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.Hardness">
+<summary>
+  Looks up a localized string similar to From: &lt;Сохранено Microsoft Internet Explorer 5&gt;
+Subject: Title
+Date: Thu, 7 Aug 2014 00:48:31 -0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type=&quot;text/html&quot;;
+	boundary=&quot;----=_NextPart_000_0000_01D02214.354132E0&quot;
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5512
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01D02214.354132E0
+Content-Type: text/html;
+	charset=&quot;utf-8&quot;
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Plugins/in [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.Heli_Coil">
+<summary>
+  Looks up a localized string similar to From: &lt;Saved Microsoft Internet Explorer 5&gt;
+Subject: Drills
+Date: Tue, 2 Sep 2014 23:52:29 -0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type=&quot;text/html&quot;;
+	boundary=&quot;----=_NextPart_000_0000_01D150B4.28B1EEA0&quot;
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5512
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01D150B4.28B1EEA0
+Content-Type: text/html;
+	charset=&quot;utf-8&quot;
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\HSMA_Plugins\F [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.helix">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.helix_small">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.help">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.home">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.icon_new">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.Inch_Taps">
+<summary>
+  Looks up a localized string similar to From: &lt;Сохранено Microsoft Internet Explorer 5&gt;
+Subject: Title
+Date: Thu, 7 Aug 2014 00:48:31 -0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type=&quot;text/html&quot;;
+	boundary=&quot;----=_NextPart_000_0000_01D02214.354132E0&quot;
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5512
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01D02214.354132E0
+Content-Type: text/html;
+	charset=&quot;utf-8&quot;
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Plugins/in [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.light_header">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.load">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.main_DB">
+<summary>
+  Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; standalone=&quot;yes&quot;?&gt;
+&lt;MainDataBase&gt;
+  &lt;xs:schema id=&quot;eldger_main&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;
+    &lt;xs:element name=&quot;eldger_main&quot; msdata:IsDataSet=&quot;true&quot; msdata:Locale=&quot;en-US&quot;&gt;
+      &lt;xs:complexType&gt;
+        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;
+          &lt;xs:element name=&quot;skv_fswizard_maindb_settings&quot;&gt;
+            &lt;xs:complexType&gt;
+              &lt;xs:sequence&gt;
+                &lt;xs:element name=&quot;ve [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.material_db">
+<summary>
+  Looks up a localized string similar to &lt;dataroot&gt;
+  &lt;xs:schema id=&quot;dataroot&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;
+    &lt;xs:element name=&quot;dataroot&quot; msdata:IsDataSet=&quot;true&quot; msdata:Locale=&quot;en-US&quot;&gt;
+      &lt;xs:complexType&gt;
+        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;
+          &lt;xs:element name=&quot;skv_fswizard_settings&quot;&gt;
+            &lt;xs:complexType&gt;
+              &lt;xs:sequence&gt;
+                &lt;xs:element name=&quot;version&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;
+                [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.Metric_Taps">
+<summary>
+  Looks up a localized string similar to From: &lt;Сохранено Microsoft Internet Explorer 5&gt;
+Subject: Title
+Date: Thu, 7 Aug 2014 00:48:31 -0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type=&quot;text/html&quot;;
+	boundary=&quot;----=_NextPart_000_0000_01D02214.354132E0&quot;
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5512
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01D02214.354132E0
+Content-Type: text/html;
+	charset=&quot;utf-8&quot;
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Plugins/in [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.mew_tool">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.more">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.no_check">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.Oblique_Triangle">
+<summary>
+  Looks up a localized string similar to From: &lt;Сохранено Microsoft Internet Explorer 5&gt;
+Subject: Title
+Date: Thu, 7 Aug 2014 00:48:31 -0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type=&quot;text/html&quot;;
+	boundary=&quot;----=_NextPart_000_0000_01D02214.354132E0&quot;
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5512
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01D02214.354132E0
+Content-Type: text/html;
+	charset=&quot;utf-8&quot;
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Plugins/in [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.Open">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.OpenTL">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.PB1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.PB2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.Pipe_Taps">
+<summary>
+  Looks up a localized string similar to From: &lt;��������� Microsoft Internet Explorer 5&gt;
+Subject: Pipe Taps
+Date: Wed, 3 Sep 2014 00:06:39 -0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type=&quot;text/html&quot;;
+	boundary=&quot;----=_NextPart_000_0000_01CFC70A.EF30D8F0&quot;
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5512
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CFC70A.EF30D8F0
+Content-Type: text/html;
+	charset=&quot;utf-8&quot;
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\HSMA_Pl [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.printer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.purchase_request_template">
+<summary>
+  Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;style&gt;
+        .item_list {background-color: gray;}
+        .item_list tr td {background-color: white;}
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1 style=&quot;text-align: center;&quot;&gt;{title}&lt;/h1&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;{header_text}&lt;/p&gt;
+    &lt;table style=&quot;background-color: gray;&quot; width=&quot;100%&quot; cellspacing=&quot;1px&quot; cellpadding=&quot;0&quot;&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td style=&quot;background-color: white; vertical-align: top;&quot; width=&quot;100%&quot; style=&quot;padding:5px&quot;&gt;
+     [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.ramp_length">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.ramp_small">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.Right_Triangle">
+<summary>
+  Looks up a localized string similar to From: &lt;Сохранено Microsoft Internet Explorer 5&gt;
+Subject: Title
+Date: Thu, 7 Aug 2014 00:48:31 -0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type=&quot;text/html&quot;;
+	boundary=&quot;----=_NextPart_000_0000_01D02214.354132E0&quot;
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5512
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01D02214.354132E0
+Content-Type: text/html;
+	charset=&quot;utf-8&quot;
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Plugins/in [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.save">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.scallop_mill">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.search_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.SH_Cap_Screws">
+<summary>
+  Looks up a localized string similar to From: &lt;Сохранено Microsoft Internet Explorer 5&gt;
+Subject: 82? Flat Head Screw
+Date: Tue, 9 Sep 2014 04:59:00 -0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type=&quot;text/html&quot;;
+	boundary=&quot;----=_NextPart_000_0000_01D01E3F.B533D3F0&quot;
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5512
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01D01E3F.B533D3F0
+Content-Type: text/html;
+	charset=&quot;utf-8&quot;
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:// [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.Shallow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.Splash">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.textbox_bg1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.textbox_bg2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.textbox_bg3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.threads">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.threads_xml">
+<summary>
+  Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; standalone=&quot;yes&quot;?&gt;
+&lt;drills&gt;
+  &lt;form&gt;
+    &lt;name&gt;UNC&lt;/name&gt;
+    &lt;long_name&gt;Unified National Coarse&lt;/long_name&gt;
+    &lt;angle&gt;60&lt;/angle&gt;
+    &lt;crest_truncate&gt;0.10825&lt;/crest_truncate&gt;
+    &lt;root_truncate&gt;0.21651&lt;/root_truncate&gt;
+    &lt;max_root_rad&gt;0.14434&lt;/max_root_rad&gt;
+    &lt;drill_factor_cutting&gt;1.299&lt;/drill_factor_cutting&gt;
+    &lt;drill_factor_forming&gt;0.68&lt;/drill_factor_forming&gt;
+    &lt;drill_thread_pc_cutting&gt;75&lt;/drill_thread_pc_cutting&gt;
+    &lt;drill_thread_pc_forming&gt;65&lt;/drill_thread_pc_form [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.tool_Gradient_BG">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.tool_Gradient_BG1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.track">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.Trash">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.treeview">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.true_position">
+<summary>
+  Looks up a localized string similar to From: &lt;Сохранено Microsoft Internet Explorer 5&gt;
+Subject: Title
+Date: Thu, 7 Aug 2014 00:48:31 -0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type=&quot;text/html&quot;;
+	boundary=&quot;----=_NextPart_000_0000_01D02214.354132E0&quot;
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5512
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01D02214.354132E0
+Content-Type: text/html;
+	charset=&quot;utf-8&quot;
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Plugins/in [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.turn_scallop">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.UP">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HSMAdvisor.My.Resources.Resources.upload">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="F:HSMAdvisor.Control_ToolDB_Manager.CommentFilter">
+ <summary>
+ Simple Filter by Tool or Cut comment string
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:HSMAdvisor.DataGridManagedColumns.VisibleColumnNames">
+ <summary>
+ Specify names of columns that are to be visible. If Null, then all are visible
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:HSMAdvisor.DataGridManagedColumns.HiddenColumnNames">
+ <summary>
+ Specify names of columns that are to be hidden. Overrides VisibleColumnNames
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:HSMAdvisor.ToolDatabaseActions.CreateNewToolDatabaseToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ item click events
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="F:HSMAdvisor.Calculation.Slotting">
+ <summary>
+ 1 if slotting cut
+ </summary>
+</member>
+<member name="F:HSMAdvisor.Calculation.Shoulder_Tapered">
+ <summary>
+ 1 if Shoulder is tapered
+ </summary>
+</member>
+<member name="F:HSMAdvisor.Calculation.RampMilling">
+ <summary>
+  '0 if calculated Ramp affects only Plunge, 1 if it affects cutting feedrate 
+ </summary>
+</member>
+<member name="F:HSMAdvisor.Calculation.Circle_Comp">
+ <summary>
+ 0 - disable circullar comensation. 1- enable
+ </summary>
+</member>
+<member name="F:HSMAdvisor.Calculation.Circle_External">
+ <summary>
+ 0 -internal Circle, 1- External Circle, 2-Straight Ramp 
+ </summary>
+</member>
+<member name="M:HSMAdvisor.Calculation.SetMetric(System.Boolean)">
+ <summary>
+ Convert CUT to either metric or imperial
+ </summary>
+ <param name="f"></param>
+</member>
+<member name="M:HSMAdvisor.Calculation.set_Cut_mm_flag(System.Boolean)">
+ <summary>
+ Not used
+ </summary>
+ <param name="f"></param>
+</member>
+<member name="M:HSMAdvisor.Calculation.GetLeadAngle">
+ <summary>
+ Return Lead Angle
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:HSMAdvisor.Calculation.get_Endmill_effective_dia">
+ <summary>
+ Get Maximum Chamfer Diameter for Speed Calculations
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:HSMAdvisor.Calculation.get_Endmill_Ideal_effective_dia">
+ <summary>
+ Get Maximum Chamfer Diameter for Speed Calculations
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:HSMAdvisor.Calculation.get_effective_dia(System.Double,System.Double,System.Double)">
+ <summary>
+ Get Maximum Chamfer Diameter for Speed Calculations
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:HSMAdvisor.Calculation.get_effective_dia_min(System.Double,System.Double,System.Double,System.Double)">
+ <summary>
+ Get minimum Chamfer Diameter for chipload calculations
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:HSMAdvisor.Calculation.ImperialValues">
+ <summary>
+ Convert calculation properties to imperial values
+ </summary>
+</member>
+<member name="M:HSMAdvisor.Calculation.NormalValues">
+ <summary>
+ Align CUT properties according to _mm flag
+ </summary>
+</member>
+<member name="M:HSMAdvisor.Calculation.SetCut">
+ <summary>
+ Populate TooldataBase.Cut object with relevant values form calculation
+ </summary>
+ <param name="c">Cut</param>
+ <param name="isNew">Set to true to NOT copy Cut_ID</param>
+</member>
+<member name="M:HSMAdvisor.Calculation.SetTool">
+ <summary>
+ Populate provided ToolDatabase.Tool object with relevant values from Calculation
+ </summary>
+</member>
+<member name="M:HSMAdvisor.Callbacks.ExecuteWhenTrueAsync(System.Func{System.Boolean},System.Action,System.Int32,System.Action)">
+ <summary>
+ Execute checker until it returns true, then call action, if it times out call onTimeout
+ </summary>
+ <param name="checker"></param>
+ <param name="action"></param>
+ <param name="timeout"></param>
+</member>
+<member name="M:HSMAdvisor.CloudServices.CloudUploadArticle(System.String,System.String,System.String,System.String,System.Boolean,System.Int32)">
+ <summary>
+ Function that uploads article to a specified URL using HSMA_Licence.machinecloud_login and HSMA_Licence.machinecloud_password credentials
+ Make Sure to LoginCheck before
+ </summary>
+ <param name="url">URL to upload article to</param>
+ <param name="title">Article Title</param>
+ <param name="txt">Article Body</param>
+ <returns>True if success</returns>
+ <remarks>CheckLogin opens message boxes</remarks>
+</member>
+<member name="M:HSMAdvisor.Control_ToolList.StopLoading">
+ <summary>
+ Call to update UI when loading is finished
+ </summary>
+</member>
+<member name="P:HSMAdvisor.Control_ToolList.FilterToolsMethod">
+ <summary>
+ Method to pre-filter Tools in the database
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:HSMAdvisor.Control_ToolList.FilterCutsMethod">
+ <summary>
+ Method to pre-filter Tools in the database
+ </summary>
+ <returns></returns>
+</member>
+<member name="T:HSMAdvisor.Control_ToolList_Actions">
+ <summary>
+ This class inherits Control_ToolList and provides various actions for the current tool database
+ </summary>
+</member>
+<member name="P:HSMAdvisor.Custom_ProgressBar.Segment_Color(System.Double)">
+ <summary>
+ The color of the custom-drawn rounded border.
+ </summary>
+ 
+</member>
+<member name="M:HSMAdvisor.DT_WRAPPER.escapeQP(System.String)">
+ <summary>
+ Escape String Query Parameter
+ </summary>
+ <param name="queryParam"></param>
+ <returns>string</returns>
+</member>
+<member name="M:HSMAdvisor.DT_WRAPPER.DT_COLUMNS(System.Data.DataTable@,System.Object[0:,0:])">
+ <summary>
+ Create/Modify Type of columns of the table 
+ </summary>
+ <param name="DATAT">Data Table</param>
+ <param name="Params">{{columnName, GetType(Type)},{columnName2, GetType(Type)}}</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:HSMAdvisor.DT_WRAPPER.DT_INSERT(System.Data.DataTable@,System.Object[0:,0:])">
+ <summary>
+ Insert row into the Datatable
+ </summary>
+ <param name="DATAT"></param>
+ <param name="Params">{{columnName1, value1},{columnName2, value2}}</param>
+ <returns>ID of the new row</returns>
+ <remarks></remarks>
+</member>
+<member name="M:HSMAdvisor.DT_WRAPPER.DT_INSERT(System.Data.DataTable@,System.Data.DataRow)">
+ <summary>
+ Insert row into the Datatable
+ </summary>
+ <param name="DATAT"></param>
+ <param name="Row">Data Row to copy from</param>
+ <returns>ID of the new row</returns>
+ <remarks></remarks>
+</member>
+<member name="M:HSMAdvisor.DT_WRAPPER.DT_INSERT(System.Data.DataTable@,System.Data.DataTable)">
+ <summary>
+ Insert a table into the Datatable
+ </summary>
+ <param name="DATAT">Destination table</param>
+ <param name="Table">DataTable to copy from</param>
+ <returns>-1</returns>
+ <remarks></remarks>
+</member>
+<member name="E:HSMAdvisor.ExpandableGroupbox.Expand">
+ <summary>
+ Fired when the control is Expanded or Collapsed.
+ </summary>
+</member>
+<member name="P:HSMAdvisor.ExpandableGroupbox.Text">
+ <summary>
+ The text shown as the caption of the <see cref="T:HSMAdvisor.ExpandableGroupbox" />.
+ </summary>
+</member>
+<member name="P:HSMAdvisor.ExpandableGroupbox.ExpandedWrapsChildren">
+ <summary>
+ Expanded size wraps its children
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:HSMAdvisor.ExpandableGroupbox.BorderColor">
+ <summary>
+ The color of the custom-drawn rounded border.
+ </summary>
+</member>
+<member name="P:HSMAdvisor.ExpandableGroupbox.HeaderColor">
+ <summary>
+ The color of the custom-drawn rounded border.
+ </summary>
+</member>
+<member name="P:HSMAdvisor.ExpandableGroupbox.Expanded">
+ <summary>
+ True when the control is expanded.
+ </summary>
+</member>
+<member name="P:HSMAdvisor.ExpandableGroupbox.CollapseOthers">
+ <summary>
+ True when the control is expanded.
+ </summary>
+</member>
+<member name="P:HSMAdvisor.ExpandableGroupbox.CaptionColor">
+ <summary>
+ The ForeColor of the text shown as the caption of the <see cref="T:HSMAdvisor.ExpandableGroupbox" />.
+ </summary>
+</member>
+<member name="P:HSMAdvisor.ExpandableGroupbox.HeaderBackgroundImage">
+ <summary>
+ The Bacground image of the text shown as the caption of the <see cref="T:HSMAdvisor.ExpandableGroupbox" />.
+ </summary>
+</member>
+<member name="P:HSMAdvisor.ExpandableGroupbox.HeaderFont">
+ <summary>
+ The Bacground image of the text shown as the caption of the <see cref="T:HSMAdvisor.ExpandableGroupbox" />.
+ </summary>
+ 
+</member>
+<member name="P:HSMAdvisor.ExpandableGroupbox.HeaderWidth">
+ <summary>
+ leave 0 to keep is the size of control 
+ </summary>
+</member>
+<member name="P:HSMAdvisor.ExpandableGroupbox.HeaderHeight">
+ <summary>
+ leave 20 is default height 
+ </summary>
+</member>
+<member name="P:HSMAdvisor.ExpandableGroupbox.CollapsedHeight">
+ <summary>
+ leave 20 is default height 
+ </summary>
+</member>
+<member name="P:HSMAdvisor.ExpandableGroupbox.ButtonExpandedBackgroundImage">
+ <summary>
+ The Bacground image of the text shown as the caption of the <see cref="T:HSMAdvisor.ExpandableGroupbox" />.
+ </summary>
+</member>
+<member name="P:HSMAdvisor.ExpandableGroupbox.ButtonContractedBackgroundImage">
+ <summary>
+ The Bacground image of the text shown as the caption of the <see cref="T:HSMAdvisor.ExpandableGroupbox" />.
+ </summary>
+</member>
+<member name="P:HSMAdvisor.ExpandableGroupbox.ExpandedSize">
+ <summary>
+ The Size of the <see cref="T:HSMAdvisor.ExpandableGroupbox" /> when expanded. Should be set by resizing the control in the designer as usual.
+ </summary>
+</member>
+<member name="P:HSMAdvisor.ExpandableGroupbox.HeaderClickExpand">
+ <summary>
+ If True, expands / collapses the control when the header (caption) is clicked, instead of using the button only.
+ </summary>
+</member>
+<member name="P:HSMAdvisor.ExpandableGroupbox.Expandable">
+ <summary>
+ If True, expands / collapses the control when the header (caption) is clicked, instead of using the button only.
+ </summary>
+</member>
+<member name="M:HSMAdvisor.ExpandableGroupbox.OnExpand">
+ <summary>
+ Changes the Size property of the control when it is expanded/collapsed.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:HSMAdvisor.ExpandableGroupboxDesigner">
+ <summary>
+ Designer class that enables the user to expand/collapse the <see cref="T:HSMAdvisor.ExpandableGroupbox" /> control during Design-Time.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:HSMAdvisor.Exposed.ShowSelectToolCutFromDatabaseDialog(System.Windows.Forms.Form,HSMAdvisor.Calculation,System.String,System.String,System.String,System.String,System.Boolean,System.String,System.String)">
+ <summary>
+ Launch Select Tool/Cut dialog
+ </summary>
+ <param name="title"></param>
+ <param name="DBChanged"></param>
+ <param name="library"></param>
+ <param name="tool_id"></param>
+ <param name="Cut_id"></param>
+ <returns>Calculation object</returns>
+</member>
+<member name="M:HSMAdvisor.Exposed.ShowHSMAdvisorDialog(HSMAdvisor.Calculation,System.Boolean,System.String)">
+ <summary>
+ Show HSMAdvisor dialog.
+ </summary>
+ <param name="cut"></param>
+ <param name="returnButton"></param>
+ <param name="prompt"></param>
+ <returns>cut if OK button was pressed or nothing othervise</returns>
+</member>
+<member name="M:HSMAdvisor.Exposed.ShowHSMAdvisorDialogSplash(HSMAdvisor.Calculation,System.Boolean,System.String)">
+ <summary>
+ Show HSMAdvisor dialog.
+ </summary>
+ <param name="cut"></param>
+ <param name="returnButton"></param>
+ <param name="prompt"></param>
+ <returns>cut if OK button was pressed or nothing othervise</returns>
+</member>
+<member name="M:HSMAdvisor.Exposed.ShowAddToolToDatabaseDialog(HSMAdvisor.Calculation)">
+ <summary>
+ Shows the Add Tool dialog 
+ </summary>
+ <param name="cut"></param>
+ <returns>id if tool was added othervise returns 0</returns>
+</member>
+<member name="M:HSMAdvisor.Exposed.ShowEditToolInDatabaseDialog(System.String)">
+ <summary>
+ Shows the Edit Tool dialog 
+ </summary>
+ <param name="cut"></param>
+ <returns>True if tool was saved</returns>
+</member>
+<member name="M:HSMAdvisor.Exposed.ShowAddCutToDatabaseDialog(HSMAdvisor.Calculation)">
+ <summary>
+ Show Add Cut dialog
+ </summary>
+ <param name="cut"></param>
+ <returns>returns ID of the new cut</returns>
+</member>
+<member name="M:HSMAdvisor.Exposed.ShowEditCutInDatabaseDialog(System.String)">
+ <summary>
+ Show Edit Cut dialog
+ </summary>
+ <param name="Cut_id"></param>
+ <returns>True if tool was saved</returns>
+</member>
+<member name="M:HSMAdvisor.Exposed.GetMachineList">
+ <summary>
+ Returns Machine Table {id, name}
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:HSMAdvisor.Exposed.GetMaterialsList">
+ <summary>
+ Returns Materials Table {id, name}
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:HSMAdvisor.Exposed.GetRecentMaterialsTable">
+ <summary>
+ Returns Materials Table {id}
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:HSMAdvisor.Exposed.FindMaterial(System.String)">
+ <summary>
+ Returns Materials Table {id, name} that match name
+ </summary>
+ <param name="name"> name of material to find</param>
+ <returns></returns>
+</member>
+<member name="M:HSMAdvisor.Exposed.set_item(System.Data.DataTable@,System.Int32,System.String,System.Object)">
+ <summary>
+ Set DataTable Cell Value
+ </summary>
+ <param name="DataT"></param>
+ <param name="row">Row Index. If out of index, then row is created</param>
+ <param name="column">Column Name. If does not exist then created</param>
+ <param name="value">Value of any type</param>
+ <remarks></remarks>
+</member>
+<member name="M:HSMAdvisor.Exposed.set_item_opt(System.Boolean,System.Data.DataTable@,System.Int32,System.String,System.Object)">
+ <summary>
+ Optionally Set DataTable Cell Value
+ </summary>
+ <param name="check">if check is true, then set</param>
+ <param name="DataT"></param>
+ <param name="row">Row Index. If out of index, then row is created</param>
+ <param name="column">Column Name. If does not exist then created</param>
+ <param name="value">Value of any type</param>
+ <remarks></remarks>
+</member>
+<member name="M:HSMAdvisor.Exposed.frmt(System.Object,System.Int32,System.Boolean)">
+ <summary>
+ 
+ </summary>
+ <param name="value"></param>
+ <param name="N">Round Digits (-1 to not round at all; 0 to Round to Integer)</param>
+ <param name="SmartRound">When N>0 Round According to the size of the value </param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:HSMAdvisor.HSMA_Window.visible_(System.String)">
+ <summary>
+ Show controls that have field_tag in their name
+ </summary>
+ <param name="field_tag"></param>
+ <remarks></remarks>
+</member>
+<member name="T:HSMAdvisor.HSMA_Window.SimpleSubDelegate">
+ <summary>
+ Use this delegate to invooke simple subs with no parameters
+ </summary>
+</member>
+<member name="P:HSMAdvisor.FileDataBase.DB_Status">
+ <summary>
+ Get current staus of the Tool Library
+ </summary>
+ <value></value>
+ <returns>'0-Up to Date;1-Writing;2-Write Failed; 3-Reading; 4 - Read Failed '</returns>
+ <remarks></remarks>
+ 
+</member>
+<member name="M:HSMAdvisor.FileDataBase.NotifyChangeHandlers(System.Boolean)">
+ <summary>
+ Something within the app changed the DB
+ </summary>
+ <param name="SaveDB"></param>
+</member>
+<member name="M:HSMAdvisor.FileDataBase.NotifyChangeHandlersTimerTick(System.Object,System.EventArgs)">
+ <summary>
+ Something within the app changed the database: Notify listeners after delay
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:HSMAdvisor.FileDataBase.ReadFile(System.String)">
+ <summary>
+ Read XML file
+ </summary>
+ <param name="filename"></param>
+ <param name="func">DataSet</param>
+ <remarks></remarks>
+</member>
+<member name="M:HSMAdvisor.FileDataBase.WriteFile(System.String,System.String,System.Boolean,System.Boolean)">
+ <summary>
+ Try Saving DataSet to File
+ </summary>
+ <param name="FileName"></param>
+ <param name="Data"></param>
+ <param name="AllowCreate">Allow creating file if it does not exist</param>
+ <param name="compress">Allow compressing File</param>
+ <param name="StagedWrite">Allow writing to Temp file before copying to destination</param>
+ <returns>Nothing if file is written, Exception if Write Failed</returns>
+ <remarks>If file does not exist and AllowCreate = False then false returned</remarks>
+</member>
+<member name="M:HSMAdvisor.Licence_.Read">
+ <summary>
+ Read the License from key file for the current Product
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:HSMAdvisor.Licence_.ReadOnline(System.Int32)">
+ <summary>
+ Register_Online
+ </summary>
+ <param name="first_name"></param>
+ <param name="last_name"></param>
+ <param name="email"></param>
+ <param name="password"></param>
+ <param name="silent_mode">0-Errors and Messages, 1-Errors Only,2-Nothing,3-Silent,Return True if Server is unreachable</param>
+ <remarks></remarks>
+</member>
+<member name="M:HSMAdvisor.MachineLibrary_.InsertMachinesXML(System.String,System.Boolean)">
+ <summary>
+ Insert whole Dataset into the current library
+ </summary>
+ <param name="machineLibraryXML"></param>
+ <returns></returns>
+</member>
+<member name="M:HSMAdvisor.Maths.Roatate2D.#ctor(System.Double,System.Double,System.Double)">
+ <summary>
+ Set angle to rotate out points
+ </summary>
+ <param name="Angle_"></param>
+ <remarks></remarks>
+</member>
+<member name="F:HSMAdvisor.SelectTool_DLG.CommentFilter">
+ <summary>
+ Simple Filter by Tool or Cut comment string
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:HSMAdvisor.Module1.SilentMode.None">
+ <summary>
+ Output Nothing
+ </summary>
+ <remarks>To display Oly errors use: IF mode &lt; SilentMode.NONE THEN</remarks>
+</member>
+<member name="M:HSMAdvisor.Module1.Send_Tick(HSMAdvisor.Licence_,System.Int32)">
+ <summary>
+ 
+ </summary>
+ <param name="lic"></param>
+ <param name="Silent_Mode">0-Errors and Messages, 1-Errors Only,2-Nothing,3-Silent,Return True if Server is unreachable</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:HSMAdvisor.Module1.time">
+ <summary>
+ Get a current timestamp
+ </summary>
+ <returns>Seconds</returns>
+ <remarks></remarks>
+</member>
+<member name="M:HSMAdvisor.Module1.Calculate_Ball_Roughness(System.Double,System.Double,System.Boolean)">
+ <summary>
+ Calculate Surface Roughness when Turning
+ </summary>
+ <param name="Step_Over">StepOver/Feed per revolution</param>
+ <param name="Corner_Rad">Corner Radius of the tool</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:HSMAdvisor.Module1.Calculate_StepOver_Roughness(System.Double,System.Double,System.Boolean)">
+ <summary>
+ Return Step-Over distance needed to get the given Roughness
+ </summary>
+ <param name="Roughness">Roughness RS</param>
+ <param name="Corner_Rad">Radius of the Tool</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:HSMAdvisor.Module1.Calculate_StepOver_Scallop(System.Double,System.Double)">
+ <summary>
+ Return Step-Over distance needed to get the given Height of scallop
+ </summary>
+ <param name="Scallop">Height of scallop</param>
+ <param name="Corner_Rad">Radius of the tool</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:HSMAdvisor.Module1.Calculate_Ball_Scallop(System.Double,System.Double)">
+ <summary>
+ Return height of scallop left by a radius of ther tool
+ </summary>
+ <param name="StepOver">Radius stepover over the surface</param>
+ <param name="Corner_Rad">Raadius of the tool</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:HSMAdvisor.Module1.IF_0(System.Object,System.Object)">
+ <summary>
+ 
+ </summary>
+ <param name="var1"></param>
+ <param name="var2"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:HSMAdvisor.Module1.IF_E(System.String,System.Object)">
+ <summary>
+ If Empty
+ </summary>
+ <param name="var1"> if var1 emprty</param>
+ <param name="var2"></param>
+ <returns></returns>
+</member>
+<member name="M:HSMAdvisor.Module1.u_convert(System.Double,System.String)">
+ <summary>
+ IN
+ IN/MIN
+ F/MIN
+ HP/IN^3
+ HP
+ IN^3
+ FT-LB
+ MM
+ MM/MIN
+ M/MINin³
+ KW/CM^3
+ CM^3
+ N-M
+ </summary>
+ <param name="val"></param>
+ <param name="from_unit"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:HSMAdvisor.Module1.Max(System.Double,System.Double)">
+ <summary>
+ Return Largest of two values
+ </summary>
+ <param name="val1"></param>
+ <param name="val2"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:HSMAdvisor.Module1.Min(System.Double,System.Double)">
+ <summary>
+ Return Smaller of two values
+ </summary>
+ <param name="val1"></param>
+ <param name="val2"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:HSMAdvisor.Module1.StD(System.Object,System.Int32)">
+ <summary>
+ Convert String (fraction or decimal) to Double 
+ </summary>
+ <param name="val_"></param>
+ <param name="Rounding"></param>
+ <returns>integer, 0 if fails</returns>
+ <remarks></remarks>
+</member>
+<member name="M:HSMAdvisor.Module1.StI(System.Object)">
+ <summary>
+ Convert String (franction or decimal) to Integer
+ </summary>
+ <param name="val_"></param>
+ <returns>Integer, 0 if fails</returns>
+ <remarks></remarks>
+</member>
+<member name="M:HSMAdvisor.Module1.StB(System.Object)">
+ <summary>
+ Convert String to Boolean
+ </summary>
+ <param name="val_"></param>
+ <returns></returns>
+</member>
+<member name="M:HSMAdvisor.Module1.DT_Append_Table(System.Data.DataTable@,System.Data.DataTable)">
+ <summary>
+ Safely Append a Table to another table. Copying is done using column names and NOT indexes
+ </summary>
+ <param name="DATAT"></param>
+ <param name="dt2"></param>
+ <remarks></remarks>
+</member>
+<member name="M:HSMAdvisor.Module1.DT_Copy_ROW(System.Data.DataTable@,System.Int32)">
+ <summary>
+ Copy Row from the same table into the end
+ </summary>
+ <param name="datat"></param>
+ <param name="index"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:HSMAdvisor.Module1.ROW_Copy(System.Data.DataRow@)">
+ <summary>
+ Copy Row from one table to another
+ </summary>
+ <param name="row"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:HSMAdvisor.Module1.Get_Rows(System.Data.DataTable,System.String,System.String)">
+ <summary>
+ Get DataTable containing sorted rows that match "Where" search pattern
+ </summary>
+ <param name="DATAT">Data Table</param>
+ <param name="Where">column1='value' coulm2='value2' coulm3='vlue3' </param>
+ <param name="sort">column1 ASC, column2 DESC</param>
+ <returns>DataTable</returns>
+ <remarks></remarks>
+</member>
+<member name="F:HSMAdvisor.Send_Tick_Async_class.Silent_mode">
+ <summary>
+ Display Errors
+ 0 - Messages and Errors
+ 1 - Errors Only
+ 2 - Nothing
+ 3 - Error on Network Fault
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:HSMAdvisor.Get_Book_Page_Class.#ctor(System.String,System.String,System.String)">
+ <summary>
+ Create a new webpage downloader instance
+ </summary>
+ <param name="Url">Url to the page you are saving</param>
+ <param name="SavePath">path to save directory\</param>
+ <param name="SaveName">name of savefile</param>
+ <remarks></remarks>
+</member>
+<member name="M:HSMAdvisor.Get_Book_Page_Class.start">
+ <summary>
+ Use this to start the thread
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:HSMAdvisor.Tool_Library_.Tool_Add(HSMAdvisor.Calculation@,System.Boolean,System.Data.DataTable@)">
+ <summary>
+ Add tool to Database.
+ </summary>
+ <param name="Cut_"></param>
+ <param name="SaveIfShared"></param>
+ <param name="DataT"></param>
+ <returns>ID of the new tool</returns>
+</member>
+<member name="M:HSMAdvisor.Tool_Library_.DTAddColumn(System.Data.DataTable@,System.String,System.Type)">
+ <summary>
+ Add Column to a table if Does not Exist
+ </summary>
+ <param name="DT"></param>
+ <param name="ColumnName"></param>
+ <param name="ColumnType"></param>
+ <remarks></remarks>
+</member>
+</members>
+</doc>
