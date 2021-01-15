@@ -35,8 +35,14 @@ Public Class Form1
         'Use GetMaterialsTable() to get IDs and Names of materials
         Dim materialsTable = GetMaterialsList()
 
+        Dim material = ShowSelectMaterialDialog()
+        If material Is Nothing Then
+            Me.Close()
+            Return
+        End If
+
         'set material by ID
-        cut.SetMaterial(25)
+        cut.SetMaterial(material.id)
 
         'Set tool type
         'Calculation.ToolTypes has references to all tool types
@@ -89,6 +95,8 @@ Public Class Form1
             'Launch HSMADvisor window and return a new calculation
             cut = ShowHSMAdvisorDialog(cut, True, "Click OK to return the calculation")
         End If
+
+        Me.Close()
 
     End Sub
 End Class
