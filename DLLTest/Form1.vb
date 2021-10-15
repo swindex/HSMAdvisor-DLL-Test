@@ -1,4 +1,5 @@
 ﻿Imports HSMAdvisor
+Imports ObjectToolDatabase.MachineDataBase
 Imports ObjectToolDatabase.ToolDataBase
 
 Public Class Form1
@@ -29,6 +30,15 @@ Public Class Form1
 
             'Set machine that the dialog returns
             cut.SetMachine(machine_id)
+        Else
+            'Not required.
+            'This is how you can create a new machine on the fly
+            Dim m = New Machine
+            MachineLibrary.InsertMachine(m)
+            cut.SetMachine(m.GUID)
+            'Call this method to save the changes to the file
+            'MachineLibrary.SaveDataBase()
+
         End If
 
         'Set workpiece material
