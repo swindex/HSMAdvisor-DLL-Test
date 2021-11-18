@@ -3,3 +3,5 @@ DLLTest/bin/Debug/
 /.vs/DLLTest/v15
 /.vs/DLLTest/v14
 /.vs/DLLTest/v16
+*.suo
+*.json
