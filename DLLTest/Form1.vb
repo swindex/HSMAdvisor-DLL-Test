@@ -1,6 +1,6 @@
 ﻿Imports HSMAdvisor
-Imports ObjectToolDatabase.MachineDataBase
-Imports ObjectToolDatabase.ToolDataBase
+Imports HSMAdvisorDatabase.MachineDataBase
+Imports HSMAdvisorDatabase.ToolDataBase
 
 Public Class Form1
     Private cut As Calculation
