@@ -1,5 +1,5 @@
 # HSMAdvisor-DLL-Test
-This is a public HSMAdvisor plugin that allows users to use the HSMAdvisorCore.dll reference in their projects and take advantage of the features of HSMAdvisor in their applications. A sample VB.NET project named DLLTest and the HSMAdvisorCore.dll library are available for reference.
+This is a public HSMAdvisor plugin that allows users to use the HSMAdvisorCore.dll reference in their projects and take advantage of the features of HSMAdvisor in their applications. A sample C# .NET Framework project named TestApp-C# and the HSMAdvisorCore.dll library are available for reference.
 
 The HSMAdvisorCore library used in this project is the same as the one used in the HSMAdvisor standalone app, which can be downloaded from https://hsmadvisor.com/download.
 
@@ -7,7 +7,7 @@ To learn more about HSMAdvisor and its features, visit the project's homepage at
 
 ## Dependencies
 * Microsoft Windows 10, 11
-* Microsoft .NET Framework 4.5+
+* Microsoft .NET Framework 4.8+
 * Visual Studio 2015 or later
 
 ## Copyright

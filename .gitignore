@@ -1,5 +1,5 @@
-DLLTest/obj/
-DLLTest/bin/Debug/
+*/obj
+*/binx
 /.vs
 *.suo
-*.json
+*.user
