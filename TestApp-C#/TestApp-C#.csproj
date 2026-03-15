@@ -98,4 +98,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent Condition="'$(Configuration)' == 'Release'">
+      echo Copying Release build to project root...
+      xcopy "$(TargetDir)$(TargetFileName)" "$(SolutionDir)" /Y
+    </PostBuildEvent>
+  </PropertyGroup>
 </Project>
