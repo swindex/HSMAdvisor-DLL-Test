@@ -79,7 +79,9 @@ namespace TestApp_C_
             allTasks.Add(new ShowMachineProfileDialogTask());
             allTasks.Add(new CreateMachineProgrammaticallyTask());
             allTasks.Add(new AssignMachineToCalculationTask());
-            
+            allTasks.Add(new MachineRPMLimitWithHSMTask());
+            allTasks.Add(new MachineFeedLimitWithHSMTask());
+
             // Material tasks
             allTasks.Add(new ListMaterialsTask());
             allTasks.Add(new ShowMaterialSelectionDialogTask());

@@ -73,7 +73,7 @@ namespace TestApp_C_.Tasks
                 output += OutputFormatter.FormatProperty("Feed Rate", $"{calcImperial.FEED:F1} in/min");
                 output += OutputFormatter.FormatProperty("DOC", $"{calcImperial.DOC:F4} inches");
                 output += OutputFormatter.FormatProperty("WOC", $"{calcImperial.WOC:F4} inches");
-                output += OutputFormatter.FormatProperty("Chipload", $"{calcImperial.IPT:F5} in/tooth");
+                output += OutputFormatter.FormatProperty("Chipload", $"{calcImperial.Real_IPT:F5} in/tooth");
                 
                 output += OutputFormatter.FormatSection("METRIC RESULTS");
                 output += OutputFormatter.FormatProperty("Diameter", $"{calcMetric.Diameter:F2} mm");
@@ -81,7 +81,7 @@ namespace TestApp_C_.Tasks
                 output += OutputFormatter.FormatProperty("Feed Rate", $"{calcMetric.FEED:F0} mm/min");
                 output += OutputFormatter.FormatProperty("DOC", $"{calcMetric.DOC:F3} mm");
                 output += OutputFormatter.FormatProperty("WOC", $"{calcMetric.WOC:F3} mm");
-                output += OutputFormatter.FormatProperty("Chipload", $"{calcMetric.IPT:F4} mm/tooth");
+                output += OutputFormatter.FormatProperty("Chipload", $"{calcMetric.Real_IPT:F4} mm/tooth");
                 
                 output += OutputFormatter.FormatSection("VERIFICATION");
                 output += OutputFormatter.FormatProperty("RPM Match", calcImperial.RPM == calcMetric.RPM ? "✓ YES" : "✗ NO");

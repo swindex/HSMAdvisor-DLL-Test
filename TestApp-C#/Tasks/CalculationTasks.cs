@@ -130,18 +130,18 @@ namespace TestApp_C_.Tasks
                     output += OutputFormatter.FormatProperty("DOC (Recommended)", $"{calc.DOC:F4} inches");
                     output += OutputFormatter.FormatApiCallWithReturn("calc.WOC", $"{calc.WOC:F4}");
                     output += OutputFormatter.FormatProperty("WOC (Recommended)", $"{calc.WOC:F4} inches");
-                    output += OutputFormatter.FormatApiCallWithReturn("calc.IPT", $"{calc.IPT:F5}");
-                    output += OutputFormatter.FormatProperty("Chipload", $"{calc.IPT:F5} in/tooth");
+                    output += OutputFormatter.FormatApiCallWithReturn("calc.Real_IPT", $"{calc.Real_IPT:F5}");
+                    output += OutputFormatter.FormatProperty("Chipload", $"{calc.Real_IPT:F5} in/tooth");
                     
                     // Show chip thickness when chip thinning is active and value differs
-                    if (calc.Chip_Thinning && Math.Abs(calc.Chip_Thickness - calc.IPT) > 0.00001)
+                    if (calc.Chip_Thinning && Math.Abs(calc.Chip_Thickness - calc.Real_IPT) > 0.00001)
                     {
                         output += OutputFormatter.FormatApiCallWithReturn("calc.Chip_Thickness", $"{calc.Chip_Thickness:F5}");
                         output += OutputFormatter.FormatProperty("Chip Thickness", $"{calc.Chip_Thickness:F5} in/tooth");
                     }
                     
-                    output += OutputFormatter.FormatApiCallWithReturn("calc.SFM", $"{calc.SFM:F0}");
-                    output += OutputFormatter.FormatProperty("Surface Speed", $"{calc.SFM:F0} SFM");
+                    output += OutputFormatter.FormatApiCallWithReturn("calc.Real_SFM", $"{calc.Real_SFM:F0}");
+                    output += OutputFormatter.FormatProperty("Surface Speed", $"{calc.Real_SFM:F0} SFM");
                     output += OutputFormatter.FormatApiCallWithReturn("calc.Gages.MRR", $"{calc.Gages.MRR:F3}");
                     output += OutputFormatter.FormatProperty("MRR", $"{calc.Gages.MRR:F3} in³/min");
                     
@@ -229,10 +229,10 @@ namespace TestApp_C_.Tasks
                     output += OutputFormatter.FormatProperty("RPM", $"{calc.RPM:F0}");
                     output += OutputFormatter.FormatApiCallWithReturn("calc.FEED", $"{calc.FEED:F1}");
                     output += OutputFormatter.FormatProperty("Feed Rate", $"{calc.FEED:F1} in/min");
-                    output += OutputFormatter.FormatApiCallWithReturn("calc.IPT", $"{calc.IPT:F5}");
-                    output += OutputFormatter.FormatProperty("Chipload", $"{calc.IPT:F5} in/rev");
-                    output += OutputFormatter.FormatApiCallWithReturn("calc.SFM", $"{calc.SFM:F0}");
-                    output += OutputFormatter.FormatProperty("Surface Speed", $"{calc.SFM:F0} SFM");
+                    output += OutputFormatter.FormatApiCallWithReturn("calc.Real_IPT", $"{calc.Real_IPT:F5}");
+                    output += OutputFormatter.FormatProperty("Chipload", $"{calc.Real_IPT:F5} in/rev");
+                    output += OutputFormatter.FormatApiCallWithReturn("calc.Real_SFM", $"{calc.Real_SFM:F0}");
+                    output += OutputFormatter.FormatProperty("Surface Speed", $"{calc.Real_SFM:F0} SFM");
                 }
                 else
                 {
@@ -401,11 +401,11 @@ namespace TestApp_C_.Tasks
                     output += OutputFormatter.FormatProperty("DOC", $"{calc.DOC:F4} inches");
                     output += OutputFormatter.FormatApiCallWithReturn("calc.WOC", $"{calc.WOC:F4}");
                     output += OutputFormatter.FormatProperty("WOC", $"{calc.WOC:F4} inches");
-                    output += OutputFormatter.FormatApiCallWithReturn("calc.IPT", $"{calc.IPT:F5}");
-                    output += OutputFormatter.FormatProperty("Chipload", $"{calc.IPT:F5} in/tooth");
+                    output += OutputFormatter.FormatApiCallWithReturn("calc.Real_IPT", $"{calc.Real_IPT:F5}");
+                    output += OutputFormatter.FormatProperty("Chipload", $"{calc.Real_IPT:F5} in/tooth");
                     
                     // Show chip thickness when chip thinning is active and value differs
-                    if (calc.Chip_Thinning && Math.Abs(calc.Chip_Thickness - calc.IPT) > 0.00001)
+                    if (calc.Chip_Thinning && Math.Abs(calc.Chip_Thickness - calc.Real_IPT) > 0.00001)
                     {
                         output += OutputFormatter.FormatApiCallWithReturn("calc.Chip_Thickness", $"{calc.Chip_Thickness:F5}");
                         output += OutputFormatter.FormatProperty("Chip Thickness", $"{calc.Chip_Thickness:F5} in/tooth");
@@ -506,8 +506,8 @@ namespace TestApp_C_.Tasks
                     output += OutputFormatter.FormatProperty("Feed Rate", $"{calc.FEED:F1} in/min");
                     output += OutputFormatter.FormatApiCallWithReturn("calc.DOC", $"{calc.DOC:F4}");
                     output += OutputFormatter.FormatProperty("DOC", $"{calc.DOC:F4} inches");
-                    output += OutputFormatter.FormatApiCallWithReturn("calc.IPT", $"{calc.IPT:F5}");
-                    output += OutputFormatter.FormatProperty("Chipload", $"{calc.IPT:F5} in/tooth");
+                    output += OutputFormatter.FormatApiCallWithReturn("calc.Real_IPT", $"{calc.Real_IPT:F5}");
+                    output += OutputFormatter.FormatProperty("Chipload", $"{calc.Real_IPT:F5} in/tooth");
                     output += OutputFormatter.FormatApiCallWithReturn("calc.Gages.MRR", $"{calc.Gages.MRR:F3}");
                     output += OutputFormatter.FormatProperty("MRR", $"{calc.Gages.MRR:F3} in³/min");
                     
