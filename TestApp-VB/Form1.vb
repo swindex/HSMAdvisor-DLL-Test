@@ -42,18 +42,8 @@ Public Class Form1
 
         End If
 
-        'Set workpiece material
-        'Use GetMaterialsTable() to get IDs and Names of materials
-        Dim materialsTable = GetMaterialsList()
-
-        Dim material = ShowSelectMaterialDialog()
-        If material Is Nothing Then
-            Me.Close()
-            Return
-        End If
-
-        'set material by ID
-        cut.SetMaterial(material.id)
+        'Set workpiece material to ID 227 (license-free demo material)
+        cut.SetMaterial(227)
 
         'Set tool type
         'Calculation.ToolTypes has references to all tool types

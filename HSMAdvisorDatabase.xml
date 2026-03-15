@@ -1,0 +1,287 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HSMAdvisorDatabase</name>
+    </assembly>
+    <members>
+        <member name="M:HSMAdvisorDatabase.MainDataBase.DataBase.GetChiploads(HSMAdvisorDatabase.ToolDataBase.Enums.ToolTypeNames)">
+            <summary>
+            Get Chiploads in Ascending Order
+            </summary>
+            <param name="tool_type"></param>
+            <returns></returns>
+        </member>
+        <member name="P:HSMAdvisorDatabase.MainDataBase.ToolType.ShankMaterial">
+            <summary>
+            Virtual ShankMaterial loaded from shank_material_id field
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:HSMAdvisorDatabase.ToolsPluginInterface">
+            <summary>
+            Converter DLLs must implement this interface 
+            </summary>
+        </member>
+        <member name="M:HSMAdvisorDatabase.ToolsPluginInterface.ImportTools">
+            <summary>
+            Read File and return a new ToolDataBase.DataBase object that is then internally merged in to the existing database
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisorDatabase.ToolsPluginInterface.ExportTools(HSMAdvisorDatabase.ToolDataBase.DataBase)">
+            <summary>
+            Write ToolDataBase.DataBase into File
+            </summary>
+            <param name="db">ToolDataBase.DataBase</param>
+        </member>
+        <member name="M:HSMAdvisorDatabase.ToolsPluginInterface.ModifyTools(HSMAdvisorDatabase.ToolDataBase.DataBase)">
+            <summary>
+            Modify HSMAdvisor Database
+            </summary>
+            <param name="db">ToolDataBase.DataBase</param>
+        </member>
+        <member name="F:HSMAdvisorDatabase.ToolsPluginCapabilityMethod.ImportTools">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HSMAdvisorDatabase.LicenseDataBase.DataBase">
+            <summary>
+            Root element matching DataSet XML format: &lt;NewDataSet&gt;
+            </summary>
+        </member>
+        <member name="M:HSMAdvisorDatabase.LicenseDataBase.DataBase.GetKey(System.String)">
+            <summary>
+            Get a license key for a specific product
+            </summary>
+        </member>
+        <member name="M:HSMAdvisorDatabase.LicenseDataBase.DataBase.SetKey(System.String,HSMAdvisorDatabase.LicenseDataBase.LicenseKey)">
+            <summary>
+            Add or update a license key for a specific product
+            </summary>
+        </member>
+        <member name="T:HSMAdvisorDatabase.LicenseDataBase.LicenseKey">
+            <summary>
+            License key matching DataSet table row format
+            </summary>
+        </member>
+        <member name="T:HSMAdvisorDatabase.LicenseDataBase.LicenseApiRoot">
+            <summary>
+            Represents the root element of the license API response
+            </summary>
+        </member>
+        <member name="T:HSMAdvisorDatabase.LicenseDataBase.LicenseApiResponse">
+            <summary>
+            Represents the response element containing license information
+            </summary>
+        </member>
+        <member name="M:HSMAdvisorDatabase.MachineDataBase.Machine.Copy(System.Boolean,System.Boolean)">
+            <summary>
+            Create a carbon copy of the Cut 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisorDatabase.MachineDataBase.PCurve.Copy">
+            <summary>
+            Create a carbon copy of the Cut 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisorDatabase.ToolDataBase.CustomIPT.Copy">
+            <summary>
+            Create a carbon copy of the CustomSFM 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisorDatabase.ToolDataBase.CustomSFM.Copy(System.Boolean)">
+            <summary>
+            Create a carbon copy of the CustomSFM 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisorDatabase.ToolDataBase.Cut.Copy(System.Boolean)">
+            <summary>
+            Create a carbon copy of the Cut 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisorDatabase.ToolDataBase.Holder.Copy(System.Boolean)">
+            <summary>
+            Create a carbon copy of the Holder
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:HSMAdvisorDatabase.ToolDataBase.Tool.Toolangle">
+            <summary>
+            Convenience method used for getting/setting tool angle in the selected mode.
+            When using make sure that ToolAngle_mode is set to the desired mode first!
+            </summary>
+        </member>
+        <member name="P:HSMAdvisorDatabase.ToolDataBase.Tool.Tool_type_id">
+            <summary>
+            Gets or sets the identifier of the tool type.
+            Saved in name_id field for historical reasons.
+            </summary>
+        </member>
+        <member name="M:HSMAdvisorDatabase.ToolDataBase.Tool.Copy(System.Boolean,System.Boolean)">
+            <summary>
+            Create a carbon copy of the Tool
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisorDatabase.ToolDataBase.DataBase.AddTool(HSMAdvisorDatabase.ToolDataBase.Tool)">
+            <summary>
+            Add Tool and all its cuts into the database
+            </summary>
+            <param name="tool"></param>
+        </member>
+        <member name="M:HSMAdvisorDatabase.ToolDataBase.DataBase.UpdateTool(HSMAdvisorDatabase.ToolDataBase.Tool)">
+            <summary>
+            Save updated Tool to the database
+            </summary>
+            <param name="tool"></param>
+        </member>
+        <member name="M:HSMAdvisorDatabase.ToolDataBase.DataBase.DeleteTool(HSMAdvisorDatabase.ToolDataBase.Tool)">
+            <summary>
+            Delete tool and all its cuts from the database
+            </summary>
+        </member>
+        <member name="M:HSMAdvisorDatabase.ToolDataBase.DataBase.DeleteToolTry(System.String)">
+            <summary>
+            Delete tool and all its cuts from the database
+            </summary>
+        </member>
+        <member name="M:HSMAdvisorDatabase.ToolDataBase.DataBase.UpdateCut(HSMAdvisorDatabase.ToolDataBase.Cut)">
+            <summary>
+            Save updated Cut to the database
+            </summary>
+        </member>
+        <member name="M:HSMAdvisorDatabase.ToolDataBase.DataBase.AddCut(HSMAdvisorDatabase.ToolDataBase.Cut)">
+            <summary>
+            Add Cut to the database
+            </summary>
+            <param name="cut"></param>
+        </member>
+        <member name="M:HSMAdvisorDatabase.ToolDataBase.DataBase.AddCustomSFM(HSMAdvisorDatabase.ToolDataBase.CustomSFM)">
+            <summary>
+            Safely add Custom SFM to the Database. Exact Dublicates will be discarded!
+            </summary>
+            <param name="csfm"></param>
+        </member>
+        <member name="M:HSMAdvisorDatabase.ToolDataBase.DataBase.AddLibrary(System.String,System.Boolean)">
+            <summary>
+            Add Library to DB. Name must be unique
+            </summary>
+        </member>
+        <member name="M:HSMAdvisorDatabase.ToolDataBase.DataBase.AddMachineInterface(System.String)">
+            <summary>
+            Add Machine Interface to DB. Name must be unique
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisorDatabase.ToolDataBase.DataBase.AddMachineInterface(HSMAdvisorDatabase.ToolDataBase.MachineInterface)">
+            <summary>
+            Add Machine Interface to database. Name must be unique
+            </summary>
+            <param name="mi"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisorDatabase.ToolDataBase.DataBase.GetCustomSFMs(HSMAdvisorDatabase.ToolDataBase.Enums.ToolTypes,System.String,System.String,System.String)">
+            <summary>
+            Get CustomSFM items for all available materials
+            </summary>
+            <param name="ToolType"></param>
+            <param name="Brand"></param>
+            <param name="Series"></param>
+            <param name="Insert"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisorDatabase.ToolDataBase.DataBase.GetCustomSFMFirst(HSMAdvisorDatabase.ToolDataBase.Enums.ToolTypes,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Get exact CustomSFM item with exactly the same parameters
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisorDatabase.ToolDataBase.DataBase.GetCustomSFMFirst(HSMAdvisorDatabase.ToolDataBase.CustomSFM)">
+            <summary>
+            Get exact CustomSFM item with exactly the same parameters
+            </summary>
+            <param name="csfm"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisorDatabase.ObjectExtensions.Copy``1(``0)">
+            <summary>
+            Create a shallow copy of an object
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="source"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisorDatabase.Parse.StringToEnum``1(System.String,``0)">
+            <summary>
+            Converts the specified string representation to the corresponding enumeration value of type T. Returns a
+            default value if the conversion fails.
+            </summary>
+            <examples>
+            var enumValue = Parse.ToEnum&lt;MyEnumType&gt;("EnumStringValue", MyEnumType.DefaultValue);
+            </examples>
+            <remarks>If the specified string does not match any value of the enumeration type T, the
+            method returns the provided default value instead of throwing an exception.</remarks>
+            <typeparam name="T">The enumeration type to convert to. Must be a value type that is an enumeration.</typeparam>
+            <param name="val">The string representation of the enumeration value to convert. The comparison is case-insensitive.</param>
+            <param name="defaultValue">The value to return if the conversion is unsuccessful.</param>
+            <returns>The enumeration value of type T that corresponds to the specified string, or the specified default value if
+            the conversion fails.</returns>
+        </member>
+        <member name="M:HSMAdvisorDatabase.Parse.StringToEnum``1(System.String)">
+            <summary>
+            Converts the specified string representation of an enumeration name or value to its corresponding enum value
+            of type T, ignoring case. Returns null if the conversion fails.
+            </summary>
+            <typeparam name="T">The enumeration type to convert to. Must be a value type that is an enum.</typeparam>
+            <param name="val">The string representation of the enumeration name or value to convert. The comparison is case-insensitive.</param>
+            <returns>The enum value of type T that corresponds to the specified string, or null if the string does not represent
+            a valid value of the enumeration.</returns>
+        </member>
+        <member name="M:HSMAdvisorDatabase.Parse.IntToEnum``1(System.Int32,``0)">
+            <summary>
+            Converts an integer value to its corresponding enumeration value of type <typeparamref name="T"/>. Returns a
+            specified default value if the integer does not map to a defined enumeration member.
+            </summary>
+            <remarks>This method is useful for safely converting integer values to enumeration types when
+            the input may not always be valid. If <paramref name="val"/> does not match any defined member of
+            <typeparamref name="T"/>, the method returns <paramref name="defaultValue"/> instead of throwing an
+            exception.</remarks>
+            <typeparam name="T">The enumeration type to convert to. Must be a value type that is an enumeration.</typeparam>
+            <param name="val">The integer value to convert to an enumeration member.</param>
+            <param name="defaultValue">The value to return if <paramref name="val"/> does not correspond to a defined member of <typeparamref
+            name="T"/>.</param>
+            <returns>The enumeration value of type <typeparamref name="T"/> that corresponds to <paramref name="val"/> if
+            defined; otherwise, <paramref name="defaultValue"/>.</returns>
+        </member>
+        <member name="M:HSMAdvisorDatabase.Parse.IntToEnum``1(System.Int32)">
+            <summary>
+            Converts an integer value to its corresponding enumeration value of type T. Returns the default value of T
+            if the integer does not map to a defined enumeration member.
+            </summary>
+            <remarks>Use this method to safely convert an integer to an enumeration value without throwing
+            an exception if the value is not defined in the enumeration. This method is useful when parsing or
+            deserializing values that may not always be valid members of the target enum.</remarks>
+            <typeparam name="T">The enumeration type to convert to. Must be a value type that represents an enum.</typeparam>
+            <param name="val">The integer value to convert to the enumeration type T.</param>
+            <returns>The enumeration value of type T that corresponds to the specified integer. Returns the default value of T if
+            the integer does not match a defined member of the enumeration.</returns>
+        </member>
+        <member name="M:HSMAdvisorDatabase.Parse.EnumToInt(System.Enum)">
+            <summary>
+            Converts the specified enumeration value to its underlying integer representation.
+            </summary>
+            <remarks>This method returns the integer value associated with the enumeration member, based
+            on its underlying type. If the enumeration uses a non-int underlying type (such as byte or long), the value
+            is converted to an int, which may result in data loss for large values.</remarks>
+            <param name="val">The enumeration value to convert. Must be a valid instance of an enumeration type.</param>
+            <returns>The integer value corresponding to the underlying value of the specified enumeration.</returns>
+        </member>
+    </members>
+</doc>

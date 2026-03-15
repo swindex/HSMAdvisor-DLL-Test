@@ -1,0 +1,2625 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HSMAdvisorCore</name>
+    </assembly>
+    <members>
+        <member name="F:HSMAdvisor.Controls.Control_Threads.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Controls.Control_Threads.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:HSMAdvisor.Controls.Control_Threads.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:HSMAdvisor.Controls.CustomNumericUpDown">
+            <summary>
+            Extends NumericUpDown with value validation and visual error feedback
+            </summary>
+        </member>
+        <member name="F:HSMAdvisor.Controls.CustomNumericUpDown.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Controls.CustomNumericUpDown.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:HSMAdvisor.Controls.CustomNumericUpDown.#ctor">
+            <summary>
+            Initializes a new instance of CustomNumericUpDown
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Controls.CustomNumericUpDown.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Controls.CustomNumericUpDown.ValidatingCancelsIfInvalid">
+            <summary>
+            Gets or sets whether validation should cancel if the value is invalid
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Controls.CustomNumericUpDown.ValidateRequired">
+            <summary>
+            Gets or sets whether the field is required (currently not applicable for NumericUpDown as it always has a value)
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Controls.CustomNumericUpDown.ValidateMin">
+            <summary>
+            Gets or sets the minimum value for validation (independent of NumericUpDown.Minimum)
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Controls.CustomNumericUpDown.ValidateMax">
+            <summary>
+            Gets or sets the maximum value for validation (independent of NumericUpDown.Maximum)
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Controls.CustomNumericUpDown.IsValid">
+            <summary>
+            Gets whether the current value is valid
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Controls.CustomNumericUpDown.Error">
+            <summary>
+            Gets or sets the error message for the control.
+            Setting a value displays the error tooltip. Setting null or empty clears the error.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Controls.CustomNumericUpDown.ErrorFont">
+            <summary>
+            Gets or sets the font used for error messages
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Controls.CustomNumericUpDown.ErrorForeColor">
+            <summary>
+            Gets or sets the foreground color for error messages
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Controls.CustomNumericUpDown.ErrorBackColor">
+            <summary>
+            Gets or sets the background color for error messages
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Controls.CustomNumericUpDown.Validate">
+            <summary>
+            Validates the current value
+            </summary>
+            <returns>True if valid, false otherwise</returns>
+        </member>
+        <member name="M:HSMAdvisor.Controls.CustomNumericUpDown.OnValidating(System.ComponentModel.CancelEventArgs)">
+            <summary>
+            Performs validation when the control is validating
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Controls.CustomNumericUpDown.OnValueChanged(System.EventArgs)">
+            <summary>
+            Validates when the value changes
+            </summary>
+        </member>
+        <member name="T:HSMAdvisor.Controls.CustomTextBox">
+            Extends the functionality of TextBox with value validation
+        </member>
+        <member name="F:HSMAdvisor.Controls.CustomTextBox.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Controls.CustomTextBox.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:HSMAdvisor.Controls.CustomTextBox.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Controls.CustomTextBox.CreateErrorTooltip">
+            <summary>
+            Creates the error tooltip if it doesn't exist
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Controls.CustomTextBox.DisposeErrorTooltip">
+            <summary>
+            Disposes the error tooltip if it exists
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Controls.CustomTextBox.IsControlVisibleToUser">
+            <summary>
+            Checks if the control is visible to the user by checking all parent controls
+            and whether the control is clipped by parent bounds
+            </summary>
+        </member>
+        <member name="T:HSMAdvisor.Controls.CustomTextBox.ErrorTooltip">
+            <summary>
+            Custom control for displaying error messages with rounded corners and an arrow
+            </summary>
+        </member>
+        <member name="T:HSMAdvisor.Controls.ErrorTooltip">
+            <summary>
+            Custom control for displaying error messages with rounded corners and an arrow.
+            Used by validation-enabled controls to show inline error feedback.
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Controls.ErrorTooltip.#ctor">
+            <summary>
+            Initializes a new instance of the ErrorTooltip class.
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Controls.ErrorTooltip.OnPaintBackground(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Prevents default background painting to avoid flicker
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Controls.ErrorTooltip.Text">
+            <summary>
+            Gets or sets the text displayed in the error tooltip
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Controls.ErrorTooltip.UpdateSize">
+            <summary>
+            Updates the size of the tooltip based on text content
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Controls.ErrorTooltip.UpdateRegion">
+            <summary>
+            Updates the control's region to match the tooltip shape
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Controls.ErrorTooltip.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Paints the error tooltip with rounded corners and arrow
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Controls.ErrorTooltip.CreateTooltipPath">
+            <summary>
+            Creates the graphics path for the tooltip shape (rounded rectangle with arrow)
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Controls.ErrorTooltip.OnFontChanged(System.EventArgs)">
+            <summary>
+            Handles font changes and updates tooltip size accordingly
+            </summary>
+        </member>
+        <member name="T:HSMAdvisor.Controls.ValidationHelper">
+            <summary>
+            Provides shared validation logic and error tooltip management for custom controls.
+            Supports TextBox, NumericUpDown, and other input controls with consistent validation behavior.
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Controls.ValidationHelper.#ctor(System.Windows.Forms.Control)">
+            <summary>
+            Initializes a new instance of the ValidationHelper class
+            </summary>
+            <param name="control">The control to validate</param>
+        </member>
+        <member name="P:HSMAdvisor.Controls.ValidationHelper.IsValid">
+            <summary>
+            Gets whether the control's current value is valid
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Controls.ValidationHelper.ErrorFont">
+            <summary>
+            Gets or sets the font used for error messages
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Controls.ValidationHelper.ErrorForeColor">
+            <summary>
+            Gets or sets the foreground color for error messages
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Controls.ValidationHelper.ErrorBackColor">
+            <summary>
+            Gets or sets the background color for error messages
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Controls.ValidationHelper.ValidateValue(System.String,System.String,System.Nullable{System.Double},System.Nullable{System.Double},System.Boolean)">
+            <summary>
+            Validates a string value based on type and constraints
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Controls.ValidationHelper.ValidateNumericValue(System.Decimal,System.Nullable{System.Double},System.Nullable{System.Double},System.Boolean)">
+            <summary>
+            Validates a numeric value (for NumericUpDown and similar controls)
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Controls.ValidationHelper.SetError(System.String)">
+            <summary>
+            Manually sets the error state for the control
+            </summary>
+            <param name="message">The error message to display. Pass null or empty to clear the error.</param>
+        </member>
+        <member name="M:HSMAdvisor.Controls.ValidationHelper.CreateErrorTooltip">
+            <summary>
+            Creates the error tooltip if it doesn't exist
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Controls.ValidationHelper.DisposeErrorTooltip">
+            <summary>
+            Disposes the error tooltip if it exists
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Controls.ValidationHelper.UpdateErrorLabel">
+            <summary>
+            Updates the error tooltip position and visibility
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Controls.ValidationHelper.IsControlVisibleToUser">
+            <summary>
+            Checks if the control is visible to the user by checking all parent controls
+            and whether the control is clipped by parent bounds
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Calculators.ChamferMillEngagementCalculator.GetEffectiveDiameter(HSMAdvisor.Interfaces.IMillingCalculation,System.Double)">
+            <summary>
+            Effective diameter at axial engagement DOC for tapered tools.
+            LeadAngle:
+              90° = straight flute (constant diameter = cut.Diameter)
+              &lt;90° = positive taper (smaller at tip, larger up the flute)
+              >90° = negative taper (larger at tip, smaller up the flute)
+            DOC is axial engagement length from the tip.
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Calculators.ChamferMillEngagementCalculator.ComputeIdealCut(HSMAdvisor.Interfaces.IMillingCalculation,System.Double,System.Double,System.Double)">
+             <summary>
+             Calculates Ideal_DOC and Ideal_WOC for a chamfer mill.
+            
+             Definitions:
+             - baseDoc/baseWoc: preset-only recommendation ("free" values)
+             - idealDoc/idealWoc: final recommendation after applying user constraints
+            
+             Constraints rules:
+             - If neither requested: ideal == base
+             - If one requested: honor it, recompute the other only if that changes engagement (side milling only WOC matters)
+             - If both requested: honor both; engagement delta goes into Material_Engagement_Factor (and tool_load_feed_factor inverse)
+            
+             Geometry:
+             - Slotting: WOC must equal effective diameter at DOC (forced)
+             </summary>
+        </member>
+        <member name="M:HSMAdvisor.Calculators.EndMillEngagementCalculator.GetEffectiveDiameter(HSMAdvisor.Interfaces.IMillingCalculation,System.Double)">
+            <summary>
+            Effective diameter at a given axial engagement (DOC) for tapered tools.
+            LeadAngle:
+              90° = straight flute (constant diameter = cut.Diameter)
+              &lt;90° = positive taper (smaller at tip, larger up the flute)
+              >90° = negative taper (larger at tip, smaller up the flute)
+            DOC is axial engagement length from the tip.
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Calculators.EndMillEngagementCalculator.ComputeIdealCut(HSMAdvisor.Interfaces.IMillingCalculation,System.Double,System.Double,System.Double)">
+            <summary>
+            Calculates Ideal_DOC and Ideal_WOC for a cut, optionally overriding DOC/WOC.
+            Tool_Type values are fractions of a reference diameter:
+              - normally cut.Diameter
+              - for LeadAngle > 90, diameter at Flute_Len (negative taper, smaller at flute end)
+            Slotting WOC is limited to effective diameter at current DOC &amp; LeadAngle.
+            </summary>
+        </member>
+        <member name="T:HSMAdvisor.Calculators.ThreadMillEngagementCalculator">
+            <summary>
+            Engagement calculator specifically for thread mill tools.
+            Thread mills have unique engagement requirements based on thread pitch and flute length.
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Calculators.ThreadMillEngagementCalculator.ComputeIdealCut(HSMAdvisor.Interfaces.IMillingCalculation,System.Double,System.Double,System.Double)">
+            <summary>
+            Calculates Ideal_DOC and Ideal_WOC for a thread mill cut.
+            
+            Base DOC = Tool_Type.Side_doc × Flute_Len
+            Base WOC = Thread_Pitch × 0.701
+            
+            The engagement_override factor (material toughness, deflection) adjusts both DOC and WOC,
+            allowing material properties to scale the engagement appropriately.
+            </summary>
+            <param name="cut">The milling calculation object</param>
+            <param name="requestedWOC">Requested width of cut (0 for default)</param>
+            <param name="requestedDOC">Requested depth of cut (0 for default)</param>
+            <param name="engagement_override">Material/deflection factor override (scales both DOC and WOC)</param>
+        </member>
+        <member name="M:HSMAdvisor.Calculators.Calc_Mill.Calculate_Effective_SFM_Diameter(HSMAdvisor.Interfaces.IMillingCalculation,System.Double)">
+            <summary>
+            Calculate effective diameter for endmill operations considering corner radius and lead angle
+            </summary>
+            <param name="Cut">Calculation object</param>
+            <param name="DOC">Depth of cut</param>
+            <returns>Effective diameter</returns>
+        </member>
+        <member name="M:HSMAdvisor.Calculators.Calc_Mill.Calculate_Axial_Chip_Thinning(HSMAdvisor.Interfaces.IMillingCalculation,System.Double)">
+            <summary>
+            Calculate axial chip thinning factor for endmill operations
+            </summary>
+            <param name="Cut">Calculation object</param>
+            <param name="DOC">Depth of cut</param>
+            <returns>Axial chip thinning factor</returns>
+        </member>
+        <member name="M:HSMAdvisor.Modules.Calculators.ChipEvacModel.ChipSpaceAreaPerMm(System.Double,System.Int32)">
+            <summary>
+            Approx chip-space cross-sectional area (mm^2), i.e. chip volume per 1mm of axial length.
+            Multiply by axial length (mm) to get chip-space volume (mm^3).
+            D in mm. N = number of flutes.
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Modules.Calculators.FluteRecommendation.GetRecommendedFluteRange(HSMAdvisorDatabase.ToolDataBase.Enums.ToolTypes,System.Double)">
+            <summary>
+            Returns recommended flute count range (min,max) for the given material group.
+            Based on chip evacuation vs tool strength for each material family.
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Modules.Calculators.GumminessModel.GetGumminessFactor(System.Double,System.Double)">
+            <summary>
+            Returns gumminess factor in [0..1].
+            0 = brittle/crumbly chips (easy evacuation), 1 = stringy/adhesive (packs flutes).
+            Uses your material "group" plus hardness as a small adjustment.
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Modules.Calculators.MaterialDocAdjustmentV2.Calculate_Material_Flute_N_DOC_Adjustment_Factor(System.Double,System.Int32,System.Double,System.Double)">
+             <summary>
+             Returns DOC adjustment factor based on:
+             - chip evacuation capacity vs 3-flute baseline (same diameter)
+             - gumminess (0..1) derived from your material group + HB
+            
+             Standard: 3-flute => factor = 1 (for same D and same material).
+             &gt;1 means "can go deeper", &lt;1 means "should go shallower".
+             </summary>
+        </member>
+        <member name="T:HSMAdvisor.FieldWarning">
+            <summary>
+            Represents a validation warning associated with a specific field
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.FieldWarning.FieldName">
+            <summary>
+            The name of the field that has the warning
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.FieldWarning.Message">
+            <summary>
+            The warning message
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.FieldWarning.#ctor(System.String,System.String)">
+            <summary>
+            Creates a new field warning
+            </summary>
+            <param name="fieldName">The name of the field that has the warning</param>
+            <param name="message">The warning message</param>
+        </member>
+        <member name="M:HSMAdvisor.FieldWarning.ToString">
+            <summary>
+            Returns the warning message for easy textbox flattening
+            </summary>
+        </member>
+        <member name="T:HSMAdvisor.Interfaces.ITappingCalculation">
+            <summary>
+            Combined interface for tapping calculations that includes both common calculation parameters
+            and tapping-specific parameters
+            </summary>
+        </member>
+        <member name="T:HSMAdvisor.Interfaces.IDFields">
+            <summary>
+            Interface for default field tracking
+            </summary>
+        </member>
+        <member name="T:HSMAdvisor.Interfaces.ICommonCalculation">
+            <summary>
+            Interface defining common calculation parameters shared across all tool families
+            </summary>
+        </member>
+        <member name="T:HSMAdvisor.Interfaces.IMillingParameters">
+            <summary>
+            Interface defining milling-specific calculation parameters
+            </summary>
+        </member>
+        <member name="T:HSMAdvisor.Interfaces.IMillingCalculation">
+            <summary>
+            Combined interface for milling calculations that includes both common calculation parameters
+            and milling-specific parameters
+            </summary>
+        </member>
+        <member name="T:HSMAdvisor.Interfaces.IDrillingParameters">
+            <summary>
+            Interface defining drilling/reaming/countersink-specific calculation parameters
+            </summary>
+        </member>
+        <member name="T:HSMAdvisor.Interfaces.IDrillingCalculation">
+            <summary>
+            Combined interface for drilling calculations that includes both common calculation parameters
+            and drilling-specific parameters
+            </summary>
+        </member>
+        <member name="T:HSMAdvisor.Interfaces.ITurningParameters">
+            <summary>
+            Interface defining turning/groove-specific calculation parameters
+            </summary>
+        </member>
+        <member name="T:HSMAdvisor.Interfaces.ITurningCalculation">
+            <summary>
+            Combined interface for turning calculations that includes both common calculation parameters
+            and turning-specific parameters
+            </summary>
+        </member>
+        <member name="T:HSMAdvisor.Interfaces.ITappingParameters">
+            <summary>
+            Interface defining tapping-specific calculation parameters
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Calculation.Effective_Dia">
+            <summary>
+            Gets the effective diameter value used in SFM calculations.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Calculation.Shoulder_Tapered">
+            <summary>
+            1 if Shoulder is tapered
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Calculation.Slotting">
+            <summary>
+            1 if slotting cut
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Calculation.Ramp">
+            <summary>
+            Ramp Angle
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Calculation.RampMilling">
+            <summary>
+            '0 if calculated Ramp affects only Plunge, 1 if it affects cutting feedrate 
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Calculation.Circle_Comp">
+            <summary>
+            0 - disable circullar comensation. 1- enable
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Calculation.Circle_External">
+            <summary>
+            0 -internal Circle, 1- External Circle, 2-Straight Ramp 
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Calculation.tool_chipload">
+            <summary>
+            Chip load of the tool 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisor.Calculation.SetMetric(System.Boolean)">
+            <summary>
+            Convert CUT to either metric or imperial
+            </summary>
+            <param name="f"></param>
+        </member>
+        <member name="M:HSMAdvisor.Calculation.set_Cut_mm_flag(System.Boolean)">
+            <summary>
+            Not used
+            </summary>
+            <param name="f"></param>
+        </member>
+        <member name="M:HSMAdvisor.Calculation.getForumaSFM">
+            <summary>
+            Get chipload from formula based on Materials and reduction factors
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisor.Calculation.getFormulaChipload">
+            <summary>
+            Get chipload from formula based on Materials and reduction factors
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisor.Calculation.get_Endmill_Ideal_effective_dia">
+            <summary>
+            Get Maximum Chamfer Diameter for Speed Calculations
+            </summary>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:HSMAdvisor.Calculation.ImperialValues">
+            <summary>
+            Convert calculation properties to imperial values
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Calculation.NormalValues">
+            <summary>
+            Align CUT properties according to _mm flag
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Calculation.GetCut">
+            <summary>
+            Get the updated Calculation's Cut object with latest values form calculation
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Calculation.GetTool">
+            <summary>
+            Get the updated Calculation's Tool object with latest values form calculation
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Calculation.SetTool(HSMAdvisorDatabase.ToolDataBase.Tool)">
+            <summary>
+            Copy Tool into the the Calculation`s Tool Object. This also mutates properties of the Calculation object
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Calculation.SetCut(HSMAdvisorDatabase.ToolDataBase.Cut,System.Boolean)">
+            <summary>
+            Copy Cut into the Calculation`s Cut Object. 
+            This also mutates properties of the Calculation object
+            Make sure you use SetTool first
+            </summary>
+        </member>
+        <member name="T:HSMAdvisor.My.Resources.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources._3wire">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources._3wire_light">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.add">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.bolt_hole">
+             <summary>
+               Looks up a localized string similar to &lt;!DOCTYPE HTML&gt;
+            &lt;html lang=&quot;en&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en&quot;&gt;
+            &lt;head&gt;
+            &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;	
+            &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+            &lt;title&gt;Bolt Hole&lt;/title&gt;
+            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; /&gt; 
+            &lt;style type=&quot;text/css&quot;&gt;html{-webkit-tap-highlight-color:transparent;height:100%}body{background:#fff;height:100%;margin:0;padding:0;position:relative;ov [rest of string was truncated]&quot;;.
+             </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.bolt_hole_partial">
+             <summary>
+               Looks up a localized string similar to &lt;!DOCTYPE HTML&gt;
+            &lt;html lang=&quot;en&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en&quot;&gt;
+              &lt;head&gt;
+                &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+                &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+                &lt;title&gt;Bolt Hole Partial&lt;/title&gt;
+                &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0,
+                  maximum-scale=1.0, user-scalable=no&quot; /&gt;
+                &lt;style type=&quot;text/css&quot;&gt;html{-webkit-tap-highlight-color:transparent;height:100%}body{background:#fff;height:100%;marg [rest of string was truncated]&quot;;.
+             </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.bolt_line">
+             <summary>
+               Looks up a localized string similar to &lt;!DOCTYPE HTML&gt;
+            &lt;html lang=&quot;en&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en&quot;&gt;
+            &lt;head&gt;
+            &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;	
+            &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+            &lt;title&gt;Bolt Line&lt;/title&gt;
+            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; /&gt; 
+            &lt;style type=&quot;text/css&quot;&gt;html{-webkit-tap-highlight-color:transparent;height:100%}body{background:#fff;height:100%;margin:0;padding:0;position:relative;ov [rest of string was truncated]&quot;;.
+             </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.btn_contracted">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.btn_expanded">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.cancel_icon">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.CBoreCutParameters">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.check">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.check_save">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.Circ_Comp_internal">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.Cloud_Animated">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.cloud_n">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.cloud_sm">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.cloud_t">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.CMS">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.DB_status_Working">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.Deep">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.default_machines">
+            <summary>
+              Looks up a localized string similar to &lt;NewDataSet&gt;
+             &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;
+               &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:Locale=&quot;en-US&quot;&gt;
+                 &lt;xs:complexType&gt;
+                   &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;
+                     &lt;xs:element name=&quot;skv_fswizard_machine&quot;&gt;
+                       &lt;xs:complexType&gt;
+                         &lt;xs:sequence&gt;
+                           &lt;xs:element name=&quot;name&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;
+                         [rest of string was truncated]&quot;;.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.default_settings">
+             <summary>
+               Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+            &lt;DataBase xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+            	&lt;Settings&gt;
+            		&lt;confirm_calculation_delete&gt;0&lt;/confirm_calculation_delete&gt;
+            		&lt;swicth_to_warnings&gt;1&lt;/swicth_to_warnings&gt;
+            		&lt;window_height&gt;726&lt;/window_height&gt;
+            		&lt;window_width&gt;1207&lt;/window_width&gt;
+            		&lt;window_x&gt;145&lt;/window_x&gt;
+            		&lt;window_y&gt;97&lt;/window_y&gt;
+            		&lt;window_state&gt;0&lt;/window_state&gt;
+            		&lt;reset_tooldata_upon_tooltype&gt;1&lt;/reset_tooldata_upon_tooltype&gt;
+            		&lt;reset_ [rest of string was truncated]&quot;;.
+             </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.dialog_bg3">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.DOWN">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.download">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.drill_point">
+             <summary>
+               Looks up a localized string similar to &lt;!DOCTYPE HTML&gt;
+            &lt;html lang=&quot;en&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en&quot;&gt;
+            &lt;head&gt;
+            &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;	
+            &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+            &lt;title&gt;Drill Point&lt;/title&gt;
+            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; /&gt; 
+            &lt;style type=&quot;text/css&quot;&gt;html{-webkit-tap-highlight-color:transparent;height:100%}body{background:#fff;height:100%;margin:0;padding:0;position:relative; [rest of string was truncated]&quot;;.
+             </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.DrillCutParameters">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.drills">
+             <summary>
+               Looks up a localized string similar to &lt;!DOCTYPE HTML&gt;
+            &lt;html lang=&quot;en&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en&quot;&gt;
+            
+            &lt;head&gt;
+              &lt;title&gt;Drills&lt;/title&gt;
+              &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+              &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+              &lt;style type=&quot;text/css&quot;&gt;html{-webkit-tap-highlight-color:transparent;height:100%}body{background:#fff;height:100%;margin:0;padding:0;position:relative;overflow:auto;font-family:Arial;font-size:1em;background-color:#fafafa}*{-moz-box-sizing:border-box;-webkit- [rest of string was truncated]&quot;;.
+             </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.edit">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.English">
+             <summary>
+               Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; standalone=&quot;yes&quot;?&gt;
+            &lt;language&gt;
+              &lt;settings&gt;
+                &lt;lang_code&gt;EN&lt;/lang_code&gt;
+                &lt;lang_scale_x&gt;1&lt;/lang_scale_x&gt;
+                &lt;lang_scale_y&gt;1&lt;/lang_scale_y&gt;
+              &lt;/settings&gt;
+              &lt;controls&gt;
+                &lt;TXT_TranslatedBy&gt;Original HSMAdvisor language by Eldar Gerfanov.&lt;/TXT_TranslatedBy&gt;
+                &lt;LB_Type&gt;Type&lt;/LB_Type&gt;
+                &lt;CHK_DefaultForTooltypes&gt;Make default for supported tool types&lt;/CHK_DefaultForTooltypes&gt;
+                &lt;CHK_DefaultForTooltypes_tooltip&gt;Automatically select this machine when any of the supported tool [rest of string was truncated]&quot;;.
+             </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.fa_download">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.feedback">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.fillet_calc">
+             <summary>
+               Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+            &lt;html lang=&quot;en&quot;&gt;
+            &lt;head&gt;
+            	&lt;meta content=&quot;IE=edge&quot; http-equiv=&quot;X-UA-Compatible&quot;&gt;
+            	&lt;title&gt;Fillet Calculator&lt;/title&gt;
+            	&lt;meta content=&quot;text/html; charset=utf-8&quot; http-equiv=&quot;Content-Type&quot;&gt;
+            	&lt;meta content=&quot;width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; name=&quot;viewport&quot;&gt;
+            	&lt;style type=&quot;text/css&quot;&gt;html{-webkit-tap-highlight-color:transparent;height:100%}body{background:#fff;height:100%;margin:0;padding:0;position:relative;overflow:auto;font-family:Arial;font-size:1em;b [rest of string was truncated]&quot;;.
+             </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.flag_green">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.flag_red">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.flag_yellow">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.flat_head_82deg">
+             <summary>
+               Looks up a localized string similar to &lt;!DOCTYPE HTML&gt;
+            &lt;html lang=&quot;en&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en&quot;&gt;
+            
+            &lt;head&gt;
+              &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+              &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+              &lt;title&gt;82º Flat Head Screw&lt;/title&gt;
+              &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0,
+                  maximum-scale=1.0, user-scalable=no&quot; /&gt;
+              &lt;script type=&quot;text/javascript&quot;&gt;/* This notice must be untouched at all times.
+            
+            wz_jsgraphics.js    v. 3.05
+            The latest vers [rest of string was truncated]&quot;;.
+             </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.flat_head_90deg">
+             <summary>
+               Looks up a localized string similar to &lt;!DOCTYPE HTML&gt;
+            &lt;html lang=&quot;en&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en&quot;&gt;
+            
+            &lt;head&gt;
+              &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+              &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+              &lt;title&gt;90º Flat Head Screw&lt;/title&gt;
+              &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,
+                  initial-scale=1.0,maximum-scale=1.0, user-scalable=no&quot; /&gt;
+            
+              &lt;script type=&quot;text/javascript&quot;&gt;/* This notice must be untouched at all times.
+            
+            wz_jsgraphics.js    v. 3.05
+            The latest ver [rest of string was truncated]&quot;;.
+             </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.floatie">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.floatingwindow">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.forums">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.gdt">
+             <summary>
+               Looks up a localized string similar to &lt;!DOCTYPE HTML&gt;
+            &lt;html lang=&quot;en&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en&quot;&gt;
+              &lt;head&gt;
+                &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+                &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+                &lt;title&gt;GD&amp;T Reference&lt;/title&gt;
+                &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0,
+                  maximum-scale=1.0, user-scalable=no&quot; /&gt;
+                &lt;style type=&quot;text/css&quot;&gt;html{-webkit-tap-highlight-color:transparent;height:100%}body{background:#fff;height:100%;margin: [rest of string was truncated]&quot;;.
+             </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.GMCodes">
+             <summary>
+               Looks up a localized string similar to &lt;!DOCTYPE HTML&gt;
+            &lt;html lang=&quot;en&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en&quot;&gt;
+            
+            &lt;head&gt;
+            	&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+            	&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+            	&lt;title&gt;G &amp; M - Codes&lt;/title&gt;
+            	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0,
+                  maximum-scale=1.0, user-scalable=no&quot; /&gt;
+            	&lt;style type=&quot;text/css&quot;&gt;html{-webkit-tap-highlight-color:transparent;height:100%}body{background:#fff;height:100%;margin:0;padding:0;posi [rest of string was truncated]&quot;;.
+             </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.gray_header">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.hardness">
+             <summary>
+               Looks up a localized string similar to &lt;!DOCTYPE HTML&gt;
+            &lt;html lang=&quot;en&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en&quot;&gt;
+            
+            &lt;head&gt;
+              &lt;title&gt;Hardness&lt;/title&gt;
+              &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+              &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+              &lt;style type=&quot;text/css&quot;&gt;html{-webkit-tap-highlight-color:transparent;height:100%}body{background:#fff;height:100%;margin:0;padding:0;position:relative;overflow:auto;font-family:Arial;font-size:1em;background-color:#fafafa}*{-moz-box-sizing:border-box;-webki [rest of string was truncated]&quot;;.
+             </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.heli_coil_data">
+             <summary>
+               Looks up a localized string similar to &lt;!DOCTYPE HTML&gt;
+            &lt;html lang=&quot;en&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en&quot;&gt;
+              &lt;head&gt;
+                &lt;title&gt;Heli-Coil&lt;/title&gt;
+                &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+                &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+                &lt;style type=&quot;text/css&quot;&gt;html{-webkit-tap-highlight-color:transparent;height:100%}body{background:#fff;height:100%;margin:0;padding:0;position:relative;overflow:auto;font-family:Arial;font-size:1em;background-color:#fafafa}*{-moz-box-sizing:border-b [rest of string was truncated]&quot;;.
+             </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.helix">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.helix_small">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.help">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.home">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.icon_new">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.inch_taps">
+             <summary>
+               Looks up a localized string similar to &lt;!DOCTYPE HTML&gt;
+            &lt;html lang=&quot;en&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en&quot;&gt;
+            
+            &lt;head&gt;
+              &lt;title&gt;Inch Taps&lt;/title&gt;
+              &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+              &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot;&gt;
+              &lt;style type=&quot;text/css&quot;&gt;html{-webkit-tap-highlight-color:transparent;height:100%}body{background:#fff;height:100%;margin:0;padding:0;position:relative;overflow:auto;font-family:Arial;font-size:1em;background-color:#fafafa}*{-moz-box-sizing:border-box;-webkit [rest of string was truncated]&quot;;.
+             </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.light_header">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.load">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.main_DB">
+             <summary>
+               Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+            &lt;DataBase xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+              &lt;skv_fswizard_maindb_settings&gt;
+                &lt;version&gt;1.507&lt;/version&gt;
+                &lt;encoding&gt;encoding&lt;/encoding&gt;
+              &lt;/skv_fswizard_maindb_settings&gt;
+              &lt;chiploads&gt;
+                &lt;chipload&gt;
+                  &lt;tool_type&gt;endmill&lt;/tool_type&gt;
+                  &lt;dia&gt;0.125&lt;/dia&gt;
+                  &lt;ipt&gt;0.00064&lt;/ipt&gt;
+                &lt;/chipload&gt;
+                &lt;chipload&gt;
+                  &lt;tool_type&gt;endmill&lt;/tool_type&gt;
+                  &lt;dia&gt;0.156&lt;/dia&gt;
+                  &lt;ipt&gt;0 [rest of string was truncated]&quot;;.
+             </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.material_db">
+            <summary>
+              Looks up a localized string similar to &lt;dataroot&gt;
+             &lt;skv_fswizard_settings&gt;
+               &lt;version&gt;06&lt;/version&gt;
+               &lt;encoding&gt;encoding&lt;/encoding&gt;
+             &lt;/skv_fswizard_settings&gt;
+             &lt;skv_fswizard_material_group&gt;
+               &lt;id&gt;1&lt;/id&gt;
+               &lt;group&gt;1&lt;/group&gt;
+               &lt;name&gt;Very soft &quot;tacky&quot; steels.&lt;/name&gt;
+               &lt;description&gt;Low-carbon and soft, purely ferritic steels&lt;/description&gt;
+               &lt;kc11&gt;1350&lt;/kc11&gt;
+               &lt;kcDR&gt;1800&lt;/kcDR&gt;
+               &lt;SFM&gt;130&lt;/SFM&gt;
+               &lt;ipt&gt;0.00225&lt;/ipt&gt;
+               &lt;SecolorGroup&gt;P&lt;/SecolorGroup&gt;
+               &lt;mc&gt;0.21&lt;/mc&gt;
+               &lt;max_sfm&gt;0&lt;/max_sfm&gt;
+               &lt;kp&gt;0.5&lt;/kp&gt;
+               [rest of string was truncated]&quot;;.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.metric_taps">
+             <summary>
+               Looks up a localized string similar to &lt;!DOCTYPE HTML&gt;
+            &lt;html lang=&quot;en&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en&quot;&gt;
+            
+            &lt;head&gt;
+              &lt;title&gt;Metric Taps&lt;/title&gt;
+              &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+              &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+              &lt;style type=&quot;text/css&quot;&gt;html{-webkit-tap-highlight-color:transparent;height:100%}body{background:#fff;height:100%;margin:0;padding:0;position:relative;overflow:auto;font-family:Arial;font-size:1em;background-color:#fafafa}*{-moz-box-sizing:border-box;-we [rest of string was truncated]&quot;;.
+             </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.mew_tool">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.more">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.nb_port_c_bores">
+             <summary>
+               Looks up a localized string similar to &lt;!DOCTYPE HTML&gt;
+            &lt;html lang=&quot;en&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en&quot;&gt;
+            
+            &lt;head&gt;
+              &lt;title&gt;NB Port C-Bores&lt;/title&gt;
+              &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+              &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+              &lt;style type=&quot;text/css&quot;&gt;html{-webkit-tap-highlight-color:transparent;height:100%}body{background:#fff;height:100%;margin:0;padding:0;position:relative;overflow:auto;font-family:Arial;font-size:1em;background-color:#fafafa}*{-moz-box-sizing:border-box [rest of string was truncated]&quot;;.
+             </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.no_check">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.oblique_triangle">
+             <summary>
+               Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+            
+            &lt;html lang=&quot;en&quot;&gt;
+            &lt;head&gt;
+            	&lt;meta content=&quot;IE=edge&quot; http-equiv=&quot;X-UA-Compatible&quot;&gt;
+            
+            	&lt;title&gt;Oblique Triangle&lt;/title&gt;
+            	&lt;meta content=&quot;text/html; charset=utf-8&quot; http-equiv=&quot;Content-Type&quot;&gt;
+            	&lt;meta content=&quot;width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; name=&quot;viewport&quot;&gt;
+            	&lt;style type=&quot;text/css&quot;&gt;html{-webkit-tap-highlight-color:transparent;height:100%}body{background:#fff;height:100%;margin:0;padding:0;position:relative;overflow:auto;font-family:Arial;font-size:1e [rest of string was truncated]&quot;;.
+             </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.Open">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.OpenTL">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.PB1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.PB2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.pipe_taps">
+             <summary>
+               Looks up a localized string similar to &lt;!DOCTYPE HTML&gt;
+            &lt;html lang=&quot;en&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en&quot;&gt;
+            
+            &lt;head&gt;
+              &lt;title&gt;Pipe Taps&lt;/title&gt;
+              &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+              &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+              &lt;style type=&quot;text/css&quot;&gt;html{-webkit-tap-highlight-color:transparent;height:100%}body{background:#fff;height:100%;margin:0;padding:0;position:relative;overflow:auto;font-family:Arial;font-size:1em;background-color:#fafafa}*{-moz-box-sizing:border-box;-webk [rest of string was truncated]&quot;;.
+             </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.printer">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.purchase_request_template">
+             <summary>
+               Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+            &lt;html&gt;
+            &lt;head&gt;
+                &lt;style&gt;
+                    .item_list {background-color: gray;}
+                    .item_list tr td {background-color: white;}
+                &lt;/style&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+            &lt;h1 style=&quot;text-align: center;&quot;&gt;{title}&lt;/h1&gt;
+            &lt;p style=&quot;text-align: center;&quot;&gt;{header_text}&lt;/p&gt;
+                &lt;table style=&quot;background-color: gray;&quot; width=&quot;100%&quot; cellspacing=&quot;1px&quot; cellpadding=&quot;0&quot;&gt;
+                    &lt;tbody&gt;
+                        &lt;tr&gt;
+                            &lt;td style=&quot;background-color: white; vertical-align: top;&quot; width=&quot;100%&quot; style=&quot;padding:5px&quot;&gt;
+                 [rest of string was truncated]&quot;;.
+             </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.ramp_length">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.ramp_small">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.ref_capscrews">
+             <summary>
+               Looks up a localized string similar to &lt;!DOCTYPE HTML&gt;
+            &lt;html lang=&quot;en&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en&quot;&gt;
+            
+            &lt;head&gt;
+              &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+              &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+              &lt;title&gt;SH Cap Screws&lt;/title&gt;
+              &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0,
+                  maximum-scale=1.0, user-scalable=no&quot; /&gt;
+              
+              &lt;script type=&quot;text/javascript&quot;&gt;/* This notice must be untouched at all times.
+            
+            wz_jsgraphics.js    v. 3.05
+            The latest versio [rest of string was truncated]&quot;;.
+             </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.right_triangle">
+             <summary>
+               Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+            
+            &lt;html lang=&quot;en&quot;&gt;
+            &lt;head&gt;
+            	&lt;meta content=&quot;IE=edge&quot; http-equiv=&quot;X-UA-Compatible&quot;&gt;
+            
+            	&lt;title&gt;Right Triangle&lt;/title&gt;
+            	&lt;meta content=&quot;text/html; charset=utf-8&quot; http-equiv=&quot;Content-Type&quot;&gt;
+            	&lt;meta content=&quot;width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; name=&quot;viewport&quot;&gt;
+            	&lt;style type=&quot;text/css&quot;&gt;html{-webkit-tap-highlight-color:transparent;height:100%}body{background:#fff;height:100%;margin:0;padding:0;position:relative;overflow:auto;font-family:Arial;font-size:1em; [rest of string was truncated]&quot;;.
+             </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.s_f_report">
+             <summary>
+               Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+            &lt;html lang=&quot;en&quot;&gt;
+            &lt;head&gt;
+              &lt;meta charset=&quot;UTF-8&quot;&gt;
+              &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+              &lt;title&gt;Document&lt;/title&gt;
+              &lt;style&gt;
+                body{
+                  background-color: white;
+                  font-family: Arial, Helvetica, sans-serif;
+                  color: #131313;
+                  
+                }
+                h1 {
+                  font-size: 1.25em;
+                  text-transform: uppercase;
+                  margin: 0.5em 0;
+                  color: #0E151F;
+                }
+                h2 {
+                  font-size: 1.25em;
+                  text-transform: uppercase;
+                   [rest of string was truncated]&quot;;.
+             </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.save">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.scallop_mill">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.scientific_calculator">
+             <summary>
+               Looks up a localized string similar to &lt;!DOCTYPE HTML&gt;
+            &lt;html lang=&quot;en&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en&quot;&gt;
+              &lt;head&gt;
+            
+                &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+                &lt;title&gt;Calculator&lt;/title&gt;
+                &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+                &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0,
+                  maximum-scale=1.0, user-scalable=no&quot; /&gt;
+                &lt;style type=&quot;text/css&quot;&gt;html{-webkit-tap-highlight-color:transparent;height:100%}body{background:#fff;height:100%;margin:0; [rest of string was truncated]&quot;;.
+             </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.search_icon">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.Shallow">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.Splash">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.textbox_bg1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.textbox_bg2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.textbox_bg3">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.threads">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.threads_xml">
+             <summary>
+               Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; standalone=&quot;yes&quot;?&gt;
+            &lt;drills&gt;
+              &lt;form&gt;
+                &lt;name&gt;UNC&lt;/name&gt;
+                &lt;long_name&gt;Unified National Coarse&lt;/long_name&gt;
+                &lt;angle&gt;60&lt;/angle&gt;
+                &lt;crest_truncate&gt;0.10825&lt;/crest_truncate&gt;
+                &lt;root_truncate&gt;0.21651&lt;/root_truncate&gt;
+                &lt;max_root_rad&gt;0.14434&lt;/max_root_rad&gt;
+                &lt;drill_factor_cutting&gt;1.299&lt;/drill_factor_cutting&gt;
+                &lt;drill_factor_forming&gt;0.68&lt;/drill_factor_forming&gt;
+                &lt;drill_thread_pc_cutting&gt;75&lt;/drill_thread_pc_cutting&gt;
+                &lt;drill_thread_pc_forming&gt;65&lt;/drill_thread_pc_form [rest of string was truncated]&quot;;.
+             </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.tool_Gradient_BG">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.tool_Gradient_BG1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.track">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.Trash">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.treeview">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.true_position">
+             <summary>
+               Looks up a localized string similar to &lt;!DOCTYPE HTML&gt;
+            &lt;html lang=&quot;en&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en&quot;&gt;
+              &lt;head&gt;
+                &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+                &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+                &lt;title&gt;True Position&lt;/title&gt;
+                &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0,
+                  maximum-scale=1.0, user-scalable=no&quot; /&gt;
+                &lt;style type=&quot;text/css&quot;&gt;html{-webkit-tap-highlight-color:transparent;height:100%}body{background:#fff;height:100%;margin:0 [rest of string was truncated]&quot;;.
+             </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.turn_scallop">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.UP">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.My.Resources.Resources.upload">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="F:HSMAdvisor.Control_ToolDB_Manager.CommentFilter">
+            <summary>
+            Simple Filter by Tool or Cut comment string
+            </summary>
+            <remarks></remarks>
+        </member>
+        <member name="P:HSMAdvisor.DataGridManagedColumns.VisibleColumnNames">
+            <summary>
+            Specify names of columns that are to be visible. If Null, then all are visible
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:HSMAdvisor.DataGridManagedColumns.LockedColumnNames">
+            <summary>
+            Specify names of columns that are to be locked (not movable, visibility cant be changed)
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.DataGridManagedColumns.HiddenColumnNames">
+            <summary>
+            Specify names of columns that are to be hidden. Overrides VisibleColumnNames
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisor.ToolDatabaseActions.CreateNewToolDatabaseToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            item click events
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HSMAdvisor.Callbacks.ExecuteWhenTrueAsync(System.Func{System.Boolean},System.Action,System.Int32,System.Action)">
+            <summary>
+            Execute checker until it returns true, then call action, if it times out call onTimeout
+            </summary>
+            <param name="checker"></param>
+            <param name="action"></param>
+            <param name="timeout"></param>
+        </member>
+        <member name="T:HSMAdvisor.XMLAPIResponse">
+            <summary>
+            Base response object for XML API responses
+            </summary>
+        </member>
+        <member name="T:HSMAdvisor.XMLAPIArticles">
+            <summary>
+            XML API response object that includes article_list mapping
+            </summary>
+        </member>
+        <member name="T:HSMAdvisor.WebsiteArticle">
+            <summary>
+            Represents a website article from the cloud API
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.CloudServices.CloudGetArticleList(System.String,System.Boolean,HSMAdvisor.HSMAdvisorEnums.SilentMode)">
+            <summary>
+            Get list of articles from the cloud service
+            </summary>
+            <param name="url">API endpoint URL</param>
+            <param name="PrivateArticle">Filter for private articles</param>
+            <param name="silent">Silent mode for error messages</param>
+            <returns>List of WebsiteArticle objects, null on error</returns>
+        </member>
+        <member name="M:HSMAdvisor.CloudServices.CloudUploadArticle(System.String,System.String,System.String,System.String,System.Boolean,HSMAdvisor.HSMAdvisorEnums.SilentMode)">
+            <summary>
+            Function that uploads article to a specified URL using AppSettings.Settings.machinecloud_login and HSMA_Licence.machinecloud_password credentials
+            </summary>
+            <param name="url"></param>
+            <param name="title"></param>
+            <param name="txt"></param>
+            <param name="guid"></param>
+            <param name="PrivateArticle"></param>
+            <param name="silent"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisor.Control_ToolList.StopLoading">
+            <summary>
+            Call to update UI when loading is finished
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Control_ToolList.FilterToolsMethod">
+            <summary>
+            Method to pre-filter Tools in the database
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:HSMAdvisor.Control_ToolList.FilterCutsMethod">
+            <summary>
+            Method to pre-filter Tools in the database
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:HSMAdvisor.Control_ToolList_Actions">
+            <summary>
+            This class inherits Control_ToolList and provides various actions for the current tool database
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Custom_ProgressBar.get_Segment_Color(System.Double)">
+            <summary>
+            	''' The color of the custom-drawn rounded border.
+            	''' </summary>
+            	'''
+        </member>
+        <member name="E:HSMAdvisor.ExpandableGroupbox.Expand">
+            <summary>
+            Fired when the control is Expanded or Collapsed.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.ExpandableGroupbox.Text">
+            <summary>
+            The text shown as the caption of the <see cref="T:HSMAdvisor.ExpandableGroupbox" />.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.ExpandableGroupbox.ExpandedWrapsChildren">
+            <summary>
+            Expanded size wraps its children
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:HSMAdvisor.ExpandableGroupbox.BorderColor">
+            <summary>
+            The color of the custom-drawn rounded border.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.ExpandableGroupbox.HeaderColor">
+            <summary>
+            The color of the custom-drawn rounded border.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.ExpandableGroupbox.Expanded">
+            <summary>
+            True when the control is expanded.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.ExpandableGroupbox.CollapseOthers">
+            <summary>
+            True when the control is expanded.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.ExpandableGroupbox.CaptionColor">
+            <summary>
+            The ForeColor of the text shown as the caption of the <see cref="T:HSMAdvisor.ExpandableGroupbox" />.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.ExpandableGroupbox.HeaderBackgroundImage">
+            <summary>
+            The Bacground image of the text shown as the caption of the <see cref="T:HSMAdvisor.ExpandableGroupbox" />.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.ExpandableGroupbox.HeaderFont">
+            <summary>
+            The Bacground image of the text shown as the caption of the <see cref="T:HSMAdvisor.ExpandableGroupbox" />.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.ExpandableGroupbox.HeaderWidth">
+            <summary>
+            leave 0 to keep is the size of control 
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.ExpandableGroupbox.HeaderHeight">
+            <summary>
+            leave 20 is default height 
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.ExpandableGroupbox.CollapsedHeight">
+            <summary>
+            leave 20 is default height 
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.ExpandableGroupbox.ButtonExpandedBackgroundImage">
+            <summary>
+            The Bacground image of the text shown as the caption of the <see cref="T:HSMAdvisor.ExpandableGroupbox" />.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.ExpandableGroupbox.ButtonContractedBackgroundImage">
+            <summary>
+            The Bacground image of the text shown as the caption of the <see cref="T:HSMAdvisor.ExpandableGroupbox" />.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.ExpandableGroupbox.ExpandedSize">
+            <summary>
+            The Size of the <see cref="T:HSMAdvisor.ExpandableGroupbox" /> when expanded. Should be set by resizing the control in the designer as usual.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.ExpandableGroupbox.HeaderClickExpand">
+            <summary>
+            If True, expands / collapses the control when the header (caption) is clicked, instead of using the button only.
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.ExpandableGroupbox.Expandable">
+            <summary>
+            If True, expands / collapses the control when the header (caption) is clicked, instead of using the button only.
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.ExpandableGroupbox.OnExpand">
+            <summary>
+            Changes the Size property of the control when it is expanded/collapsed.
+            </summary>
+            <remarks></remarks>
+        </member>
+        <member name="T:HSMAdvisor.ExpandableGroupboxDesigner">
+            <summary>
+            Designer class that enables the user to expand/collapse the <see cref="T:HSMAdvisor.ExpandableGroupbox" /> control during Design-Time.
+            </summary>
+            <remarks></remarks>
+        </member>
+        <member name="M:HSMAdvisor.DT_WRAPPER.escapeQP(System.String)">
+            <summary>
+            Escape String Query Parameter
+            </summary>
+            <param name="queryParam"></param>
+            <returns>string</returns>
+        </member>
+        <member name="M:HSMAdvisor.DT_WRAPPER.DT_COLUMNS(System.Data.DataTable@,System.Object[0:,0:])">
+            <summary>
+            Create/Modify Type of columns of the table 
+            </summary>
+            <param name="DATAT">Data Table</param>
+            <param name="Params">{{columnName, GetType(Type)},{columnName2, GetType(Type)}}</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:HSMAdvisor.DT_WRAPPER.DT_INSERT(System.Data.DataTable@,System.Object[0:,0:])">
+            <summary>
+            Insert row into the Datatable
+            </summary>
+            <param name="DATAT"></param>
+            <param name="Params">{{columnName1, value1},{columnName2, value2}}</param>
+            <returns>ID of the new row</returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:HSMAdvisor.DT_WRAPPER.DT_INSERT(System.Data.DataTable@,System.Data.DataRow)">
+            <summary>
+            Insert row into the Datatable
+            </summary>
+            <param name="DATAT"></param>
+            <param name="Row">Data Row to copy from</param>
+            <returns>ID of the new row</returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:HSMAdvisor.DT_WRAPPER.DT_INSERT(System.Data.DataTable@,System.Data.DataTable)">
+            <summary>
+            Insert a table into the Datatable
+            </summary>
+            <param name="DATAT">Destination table</param>
+            <param name="Table">DataTable to copy from</param>
+            <returns>-1</returns>
+            <remarks></remarks>
+        </member>
+        <member name="F:HSMAdvisor.HSMAdvisorEnums.SilentMode.All">
+            <summary>
+            Display All messages: Notifications and Errors 
+            </summary>
+        </member>
+        <member name="F:HSMAdvisor.HSMAdvisorEnums.SilentMode.ErrorsOnly">
+            <summary>
+            Display Only Errors 
+            </summary>
+        </member>
+        <member name="F:HSMAdvisor.HSMAdvisorEnums.SilentMode.None">
+            <summary>
+            Output Nothing
+            </summary>
+            <remarks>To display Oly errors use: IF mode &lt; SilentMode.NONE THEN</remarks>
+        </member>
+        <member name="M:HSMAdvisor.Core.InitializeLogging">
+            <summary>
+            Initializes the unified logging system with multiple outputs
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Core.MYExnHandler(System.Object,System.UnhandledExceptionEventArgs)">
+            <summary>
+            Unhandled Expetion Event Handler
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HSMAdvisor.Core.MYThreadHandler(System.Object,System.Threading.ThreadExceptionEventArgs)">
+            <summary>
+            Unhandled Expetion Event Handler
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HSMAdvisor.Core.ShowSelectToolCutFromDatabaseDialog(System.Windows.Forms.Form,HSMAdvisor.Calculation,System.String,System.String,System.String,System.String,System.Boolean,System.String,System.String)">
+            <summary>
+            Launch Select Tool/Cut dialog
+            </summary>
+            <param name="parent"> parent form</param>
+            <param name="Cut"></param>
+            <param name="title"></param>
+            <param name="library"></param>
+            <param name="tool_id"></param>
+            <param name="Cut_id"></param>
+            <param name="CAMOnly"></param>
+            <param name="CAMToolpathName1"></param>
+            <param name="CAMToolpathName2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisor.Core.ShowHSMAdvisorDialog(HSMAdvisor.Calculation,System.Boolean,System.String)">
+            <summary>
+            Show HSMAdvisor dialog.
+            </summary>
+            <param name="cut"></param>
+            <param name="returnButton"></param>
+            <param name="prompt"></param>
+            <returns>cut if OK button was pressed or nothing othervise</returns>
+        </member>
+        <member name="M:HSMAdvisor.Core.ShowHSMAdvisorDialogSplash(HSMAdvisor.Calculation,System.Boolean,System.String)">
+            <summary>
+            Show HSMAdvisor dialog.
+            </summary>
+            <param name="cut"></param>
+            <param name="returnButton"></param>
+            <param name="prompt"></param>
+            <returns>cut if OK button was pressed or nothing othervise</returns>
+        </member>
+        <member name="M:HSMAdvisor.Core.ShowAddToolToDatabaseDialog(HSMAdvisor.Calculation)">
+            <summary>
+            Shows the Add Tool dialog 
+            </summary>
+            <param name="cut"></param>
+            <returns>id if tool was added othervise returns 0</returns>
+        </member>
+        <member name="M:HSMAdvisor.Core.ShowEditToolInDatabaseDialog(System.String)">
+            <summary>
+            Shows the Edit Tool dialog 
+            </summary>
+            <returns>True if tool was saved</returns>
+        </member>
+        <member name="M:HSMAdvisor.Core.ShowAddCutToDatabaseDialog(HSMAdvisor.Calculation)">
+            <summary>
+            Show Add Cut dialog
+            </summary>
+            <param name="cut"></param>
+            <returns>returns ID of the new cut</returns>
+        </member>
+        <member name="M:HSMAdvisor.Core.ShowEditCutInDatabaseDialog(System.String)">
+            <summary>
+            Show Edit Cut dialog
+            </summary>
+            <param name="Cut_GUID"></param>
+            <returns>True if tool was saved</returns>
+        </member>
+        <member name="M:HSMAdvisor.Core.GetMachineList">
+            <summary>
+            Returns Machine Table {id, name}
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisor.Core.GetMaterialsList">
+            <summary>
+            Returns Materials Table {id, name}
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisor.Core.GetRecentMaterialsTable">
+            <summary>
+            Returns Materials Table {id}
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisor.Core.FindMaterial(System.String)">
+            <summary>
+            Returns Materials Table {id, name} that match name
+            </summary>
+            <param name="name"> name of material to find</param>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisor.Core.set_item(System.Data.DataTable@,System.Int32,System.String,System.Object)">
+            <summary>
+            Set DataTable Cell Value
+            </summary>
+            <param name="DataT"></param>
+            <param name="row">Row Index. If out of index, then row is created</param>
+            <param name="column">Column Name. If does not exist then created</param>
+            <param name="value">Value of any type</param>
+            <remarks></remarks>
+        </member>
+        <member name="M:HSMAdvisor.Core.set_item_opt(System.Boolean,System.Data.DataTable@,System.Int32,System.String,System.Object)">
+            <summary>
+            Optionally Set DataTable Cell Value
+            </summary>
+            <param name="check">if check is true, then set</param>
+            <param name="DataT"></param>
+            <param name="row">Row Index. If out of index, then row is created</param>
+            <param name="column">Column Name. If does not exist then created</param>
+            <param name="value">Value of any type</param>
+            <remarks></remarks>
+        </member>
+        <member name="M:HSMAdvisor.Core.frmt(System.Object,System.Int32,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="N">Round Digits (-1 to not round at all; 0 to Round to Integer)</param>
+            <param name="SmartRound">When N>0 Round According to the size of the value </param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="T:HSMAdvisor.Log">
+            <summary>
+            Static facade for accessing the logging system
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Log.IsInitialized">
+            <summary>
+            Gets whether the logger has been initialized
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Log.Instance">
+            <summary>
+            Gets the logger instance
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Log.Debug(System.String)">
+            <summary>
+            Log a debug message
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Log.Info(System.String)">
+            <summary>
+            Log an informational message
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Log.Warning(System.String,System.Exception)">
+            <summary>
+            Log a warning message
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Log.Error(System.String,System.Exception)">
+            <summary>
+            Log an error message
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Log.Fatal(System.String,System.Exception)">
+            <summary>
+            Log a fatal error message
+            </summary>
+        </member>
+        <member name="T:HSMAdvisor.Logging.ILogger">
+            <summary>
+            Interface for the logging system
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Logging.ILogger.Debug(System.String)">
+            <summary>
+            Log a debug message
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Logging.ILogger.Info(System.String)">
+            <summary>
+            Log an informational message
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Logging.ILogger.Warning(System.String,System.Exception)">
+            <summary>
+            Log a warning message
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Logging.ILogger.Error(System.String,System.Exception)">
+            <summary>
+            Log an error message
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Logging.ILogger.Fatal(System.String,System.Exception)">
+            <summary>
+            Log a fatal error message
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Logging.ILogger.MinimumLevel">
+            <summary>
+            Gets or sets the minimum log level
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Logging.ILogger.AddOutput(HSMAdvisor.Logging.ILogOutput)">
+            <summary>
+            Adds a log output destination
+            </summary>
+        </member>
+        <member name="T:HSMAdvisor.Logging.Logger">
+            <summary>
+            Core logger implementation that manages log outputs and processes log entries
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Logging.Logger.MinimumLevel">
+            <summary>
+            Gets or sets the minimum log level. Messages below this level will be ignored.
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Logging.Logger.AddOutput(HSMAdvisor.Logging.ILogOutput)">
+            <summary>
+            Adds a log output destination
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Logging.Logger.Debug(System.String)">
+            <summary>
+            Log a debug message
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Logging.Logger.Info(System.String)">
+            <summary>
+            Log an informational message
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Logging.Logger.Warning(System.String,System.Exception)">
+            <summary>
+            Log a warning message
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Logging.Logger.Error(System.String,System.Exception)">
+            <summary>
+            Log an error message
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Logging.Logger.Fatal(System.String,System.Exception)">
+            <summary>
+            Log a fatal error message
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Logging.Logger.Write(HSMAdvisor.Logging.LogLevel,System.String,System.Exception)">
+            <summary>
+            Core write method that creates log entries and dispatches to all outputs
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Logging.Logger.GetCallerMethodName">
+            <summary>
+            Gets the name of the method that called the logging method
+            </summary>
+        </member>
+        <member name="T:HSMAdvisor.Logging.LogLevel">
+            <summary>
+            Defines the severity levels for log messages
+            </summary>
+        </member>
+        <member name="F:HSMAdvisor.Logging.LogLevel.Debug">
+            <summary>
+            Detailed diagnostic information for development/troubleshooting
+            </summary>
+        </member>
+        <member name="F:HSMAdvisor.Logging.LogLevel.Info">
+            <summary>
+            General informational messages about application flow
+            </summary>
+        </member>
+        <member name="F:HSMAdvisor.Logging.LogLevel.Warning">
+            <summary>
+            Warning messages for potentially harmful situations
+            </summary>
+        </member>
+        <member name="F:HSMAdvisor.Logging.LogLevel.Error">
+            <summary>
+            Error messages for error events that might still allow the app to continue
+            </summary>
+        </member>
+        <member name="F:HSMAdvisor.Logging.LogLevel.Fatal">
+            <summary>
+            Critical error messages that may cause application termination
+            </summary>
+        </member>
+        <member name="T:HSMAdvisor.Logging.LogEntry">
+            <summary>
+            Represents a single log entry with timestamp, level, message, and optional exception
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Logging.LogEntry.Timestamp">
+            <summary>
+            When the log entry was created
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Logging.LogEntry.Level">
+            <summary>
+            Severity level of the log entry
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Logging.LogEntry.Message">
+            <summary>
+            The log message
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Logging.LogEntry.Exception">
+            <summary>
+            Optional exception associated with this log entry
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Logging.LogEntry.ThreadId">
+            <summary>
+            The thread ID where the log entry was created
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Logging.LogEntry.Source">
+            <summary>
+            The source method name where the log entry was created
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Logging.LogEntry.ToString">
+            <summary>
+            Formats the log entry as a string
+            </summary>
+        </member>
+        <member name="T:HSMAdvisor.Logging.ILogOutput">
+            <summary>
+            Interface for log output destinations
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Logging.ILogOutput.Write(HSMAdvisor.Logging.LogEntry)">
+            <summary>
+            Writes a log entry to the output destination
+            </summary>
+            <param name="entry">The log entry to write</param>
+        </member>
+        <member name="T:HSMAdvisor.Logging.Outputs.FileLogOutput">
+            <summary>
+            Writes log entries to rotating log files
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Logging.Outputs.FileLogOutput.#ctor(System.String,System.Int32,System.Int32)">
+            <summary>
+            Creates a new file log output with automatic rotation
+            </summary>
+            <param name="logDirectory">Directory where log files will be stored</param>
+            <param name="maxFileSizeMB">Maximum size of a single log file in megabytes before rotation</param>
+            <param name="maxFiles">Maximum number of rotated log files to keep</param>
+        </member>
+        <member name="M:HSMAdvisor.Logging.Outputs.FileLogOutput.Write(HSMAdvisor.Logging.LogEntry)">
+            <summary>
+            Writes a log entry to the file
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Logging.Outputs.FileLogOutput.CheckFileRotation">
+            <summary>
+            Checks if the current log file needs to be rotated
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Logging.Outputs.FileLogOutput.RotateLogFiles">
+            <summary>
+            Rotates log files, deleting the oldest if necessary
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Logging.Outputs.FileLogOutput.GetCurrentLogFilePath">
+            <summary>
+            Gets the path to the current log file
+            </summary>
+        </member>
+        <member name="T:HSMAdvisor.Logging.Outputs.EventBusLogOutput">
+            <summary>
+            Writes log entries to the EventBus system for UI consumption
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Logging.Outputs.EventBusLogOutput.Write(HSMAdvisor.Logging.LogEntry)">
+            <summary>
+            Writes a log entry to EventBus.DebugEvents
+            </summary>
+        </member>
+        <member name="T:HSMAdvisor.Logging.Outputs.DebugLogOutput">
+            <summary>
+            Writes log entries to System.Diagnostics.Debug output
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Logging.Outputs.DebugLogOutput.Write(HSMAdvisor.Logging.LogEntry)">
+            <summary>
+            Writes a log entry to Debug output
+            </summary>
+        </member>
+        <member name="T:HSMAdvisor.Logging.Outputs.ConsoleLogOutput">
+            <summary>
+            Writes log entries to Console output with color coding
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Logging.Outputs.ConsoleLogOutput.Write(HSMAdvisor.Logging.LogEntry)">
+            <summary>
+            Writes a log entry to Console output with appropriate color
+            </summary>
+        </member>
+        <member name="T:HSMAdvisor.Logging.Outputs.AnalyticsLogOutput">
+            <summary>
+            Writes error and fatal log entries to Piwik analytics with enriched context
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Logging.Outputs.AnalyticsLogOutput.#ctor(Piwik.Tracker.PiwikTracker)">
+            <summary>
+            Creates a new analytics log output
+            </summary>
+            <param name="tracker">The Piwik tracker instance</param>
+        </member>
+        <member name="M:HSMAdvisor.Logging.Outputs.AnalyticsLogOutput.Write(HSMAdvisor.Logging.LogEntry)">
+            <summary>
+            Writes error and fatal log entries to analytics with enriched context
+            </summary>
+        </member>
+        <member name="T:HSMAdvisor.Analytics.EventCategory">
+            <summary>
+            Categories for analytics events
+            </summary>
+        </member>
+        <member name="F:HSMAdvisor.Analytics.EventCategory.Navigation">
+            <summary>
+            Page views and dialog navigation
+            </summary>
+        </member>
+        <member name="F:HSMAdvisor.Analytics.EventCategory.Selection">
+            <summary>
+            User selections (machine, material, tool, etc.)
+            </summary>
+        </member>
+        <member name="F:HSMAdvisor.Analytics.EventCategory.Calculation">
+            <summary>
+            Speed and feed calculations
+            </summary>
+        </member>
+        <member name="F:HSMAdvisor.Analytics.EventCategory.Database">
+            <summary>
+            Tool and cut database operations
+            </summary>
+        </member>
+        <member name="F:HSMAdvisor.Analytics.EventCategory.MachineDatabase">
+            <summary>
+            Represents a database of machines, providing access to machine records and related operations.
+            </summary>
+        </member>
+        <member name="F:HSMAdvisor.Analytics.EventCategory.Cloud">
+            <summary>
+            Cloud synchronization operations
+            </summary>
+        </member>
+        <member name="F:HSMAdvisor.Analytics.EventCategory.License">
+            <summary>
+            License validation and management operations
+            </summary>
+        </member>
+        <member name="F:HSMAdvisor.Analytics.EventCategory.Error">
+            <summary>
+            Application errors and exceptions
+            </summary>
+        </member>
+        <member name="F:HSMAdvisor.Analytics.EventCategory.Performance">
+            <summary>
+            Performance and timing metrics
+            </summary>
+        </member>
+        <member name="F:HSMAdvisor.Analytics.EventCategory.ExternalCall">
+            <summary>
+            External API calls and integrations
+            </summary>
+        </member>
+        <member name="T:HSMAdvisor.Analytics.AnalyticsEvent">
+            <summary>
+            Represents a structured analytics event
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Analytics.AnalyticsEvent.Category">
+            <summary>
+            Event category
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Analytics.AnalyticsEvent.Action">
+            <summary>
+            Action being performed (e.g., "Select", "Calculate", "Upload")
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Analytics.AnalyticsEvent.Label">
+            <summary>
+            Context-specific identifier or label
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Analytics.AnalyticsEvent.Value">
+            <summary>
+            Optional numeric value associated with the event
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.Analytics.AnalyticsEvent.CustomData">
+            <summary>
+            Additional context data for the event
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Analytics.AnalyticsEvent.GetEventName">
+            <summary>
+            Gets the formatted event name following convention: {Category}.{Action}.{Label}
+            </summary>
+        </member>
+        <member name="T:HSMAdvisor.Analytics.AnalyticsHelper">
+            <summary>
+            Helper class for tracking analytics events with enriched context
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Analytics.AnalyticsHelper.Initialize(Piwik.Tracker.PiwikTracker)">
+            <summary>
+            Initialize the analytics helper with a tracker instance
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Analytics.AnalyticsHelper.IsAnalyticsEnabled">
+            <summary>
+            Check if analytics tracking is enabled based on settings
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Analytics.AnalyticsHelper.IsErrorReportingEnabled">
+            <summary>
+            Check if error reporting is enabled based on settings
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Analytics.AnalyticsHelper.TrackEvent(HSMAdvisor.Analytics.EventCategory,System.String,System.String,System.Nullable{System.Decimal},System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            Track a structured analytics event with automatic context enrichment
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Analytics.AnalyticsHelper.TrackPageView(System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            Track a page view
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Analytics.AnalyticsHelper.TrackSelection(System.String,System.String)">
+            <summary>
+            Track a selection event (machine, material, tool, etc.)
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Analytics.AnalyticsHelper.TrackDatabaseOperation(System.String,System.String)">
+            <summary>
+            Track a database operation
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Analytics.AnalyticsHelper.TrackCloudOperation(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            Track a cloud operation
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Analytics.AnalyticsHelper.TrackCalculation(System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            Track a calculation event
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Analytics.AnalyticsHelper.TrackPerformance(System.String,System.Double,System.Boolean,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            Track a performance metric
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.Analytics.AnalyticsHelper.BuildContext(System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            Build context dictionary with automatic enrichment
+            </summary>
+        </member>
+        <member name="M:HSMAdvisor.HSMA_Window.u_calc(System.Boolean,System.Windows.Forms.Control)">
+            <summary>
+            Collect input data and calculate
+            </summary>
+            <param name="preset_SPEEDS"></param>
+            <param name="activecontrol"></param>
+        </member>
+        <member name="M:HSMAdvisor.HSMA_Window.calc(System.Boolean)">
+            <summary>
+            Recalculate everything without collecting any input data
+            </summary>
+            <param name="preset_SPEEDS"></param>
+        </member>
+        <member name="M:HSMAdvisor.HSMA_Window.visible_(System.String)">
+            <summary>
+            Show controls that have field_tag in their name
+            </summary>
+            <param name="field_tag"></param>
+            <remarks></remarks>
+        </member>
+        <member name="T:HSMAdvisor.HSMA_Window.SimpleSubDelegate">
+            <summary>
+            Use this delegate to invooke simple subs with no parameters
+            </summary>
+        </member>
+        <member name="P:HSMAdvisor.FileDataBase.DB_Status">
+            <summary>
+            Get current staus of the Tool Library
+            </summary>
+            <value></value>
+            <returns>'0-Up to Date;1-Writing;2-Write Failed; 3-Reading; 4 - Read Failed '</returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:HSMAdvisor.FileDataBase.TryRestoreBackupDataBase(System.String)">
+            <summary>
+            Check the Backup folder for the filename and if finds, replaces the passed file with the backup one and returns the path
+            </summary>
+            <param name="fileName"></param>
+            <returns>new Filename of Nothing</returns>
+        </member>
+        <member name="M:HSMAdvisor.FileDataBase.NotifyChangeHandlers(System.Boolean)">
+            <summary>
+            Something within the app changed the DB
+            </summary>
+            <param name="SaveDB"></param>
+        </member>
+        <member name="M:HSMAdvisor.FileDataBase.NotifyChangeHandlersTimerTick(System.Object,System.EventArgs)">
+            <summary>
+            Something within the app changed the database: Notify listeners after delay
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HSMAdvisor.FileDataBase.ReadFile(System.String)">
+            <summary>
+            Read XML file
+            </summary>
+            <param name="filename"></param>
+            <remarks></remarks>
+        </member>
+        <member name="M:HSMAdvisor.FileDataBase.WriteFile(System.String,System.String,System.Boolean,System.Boolean)">
+            <summary>
+            Try Saving DataSet to File
+            </summary>
+            <param name="FileName"></param>
+            <param name="Data"></param>
+            <param name="compress">Allow compressing File</param>
+            <param name="StagedWrite">Allow writing to Temp file before copying to destination</param>
+            <remarks>If file does not exist and AllowCreate = False then false returned</remarks>
+        </member>
+        <member name="M:HSMAdvisor.Licence_.Read">
+            <summary>
+            Read the License from key file for the current Product
+            </summary>
+            <remarks></remarks>
+        </member>
+        <member name="M:HSMAdvisor.Licence_.ReadOnline(System.Int32)">
+            <summary>
+            Register_Online
+            </summary>
+            <param name="silent_mode">0-Errors and Messages, 1-Errors Only,2-Nothing,3-Silent,Return True if Server is unreachable</param>
+            <remarks></remarks>
+        </member>
+        <member name="M:HSMAdvisor.MachFormulas.calculate_engagement_dia_at_doc(System.Double,System.Double,System.Double)">
+            <summary>
+            Get Diameter of engagement with the material at the DOC
+            </summary>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:HSMAdvisor.MachFormulas.calculate_engagement_dia_min_at_doc(System.Double,System.Double,System.Double)">
+            <summary>
+            Calculate the minimum diameter a tool has along the flute for given DOC
+            </summary>
+            <param name="TipDiameter"></param>
+            <param name="LeadAngle"></param>
+            <param name="DOC"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisor.MachFormulas.calculate_engagement_dia_max_at_doc(System.Double,System.Double,System.Double)">
+            <summary>
+            Calculate the maximum diameter a tool has along the flute for given DOC
+            </summary>
+            <param name="TipDiameter"></param>
+            <param name="LeadAngle"></param>
+            <param name="DOC"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisor.MachFormulas.get_effective_dia_chamfer(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Get Engagement Diameter for chamfer for chipload calculations
+            </summary>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:HSMAdvisor.MachFormulas.get_helical_pitch(System.Double,System.Double,System.Double,System.Boolean)">
+            <summary>
+            Calculate pitch of a helical toolpath move
+            </summary>
+            <param name="dia"></param>
+            <param name="circle_dia"></param>
+            <param name="ramp_angle"></param>
+            <param name="external"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisor.MachFormulas.get_linear_pitch(System.Double,System.Double)">
+            <summary>
+            Calculate pitch of a linear move
+            </summary>
+            <param name="line_length"></param>
+            <param name="ramp_angle"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisor.MachFormulas.calc_base_chipload_HSS(System.Double)">
+            <summary>
+            Calculate 
+            </summary>
+            <param name="hb"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisor.MachFormulas.calc_base_chipload_Carbide(System.Double)">
+            <summary>
+            Calculate 
+            </summary>
+            <param name="hb"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisor.MachFormulas.CalculateRotatingToolCriticalRPM(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Calculate critical RPM of a steel rod
+            </summary>
+            <param name="diameter"></param>
+            <param name="length"></param>
+            <param name="modulusOfElasticity_ksi"></param>
+            <param name="density_lb_in3"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisor.MachFormulas.CalculateShaftMaxTorque(System.Double,System.Double)">
+            <summary>
+            Returns a maximum theoretical torque for a solid shaft of a given diameter
+            </summary>
+            <param name="diameter"></param>
+            <param name="yeld_ksi"></param>
+            <returns>Torque in lb/in</returns>
+        </member>
+        <member name="M:HSMAdvisor.MachFormulas.Calculate_Radial_Chip_Thinning(System.Double,System.Double)">
+            <summary>
+            Calculate radial chip thinning factor for endmill operations
+            </summary>
+            <param name="Diameter">Tool diameter</param>
+            <param name="WOC">Width of cut</param>
+            <returns>Chip thinning factor</returns>
+        </member>
+        <member name="M:HSMAdvisor.MachFormulas.Calculate_Ball_Roughness(System.Double,System.Double,System.Boolean)">
+            <summary>
+            Calculate Surface Roughness when Turning
+            </summary>
+            <param name="Step_Over">StepOver/Feed per revolution</param>
+            <param name="Corner_Rad">Corner Radius of the tool</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:HSMAdvisor.MachFormulas.Calculate_StepOver_Roughness(System.Double,System.Double,System.Boolean)">
+            <summary>
+            Return Step-Over distance needed to get the given Roughness
+            </summary>
+            <param name="Roughness">Roughness RS</param>
+            <param name="Corner_Rad">Radius of the Tool</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:HSMAdvisor.MachFormulas.Calculate_StepOver_Scallop(System.Double,System.Double)">
+            <summary>
+            Return Step-Over distance needed to get the given Height of scallop
+            </summary>
+            <param name="Scallop">Height of scallop</param>
+            <param name="Corner_Rad">Radius of the tool</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:HSMAdvisor.MachFormulas.Calculate_Ball_Scallop(System.Double,System.Double)">
+            <summary>
+            Return height of scallop left by a radius of ther tool
+            </summary>
+            <param name="StepOver">Radius stepover over the surface</param>
+            <param name="Corner_Rad">Raadius of the tool</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:HSMAdvisor.MachineLibrary_.InsertMachinesXML(System.String,System.Boolean)">
+            <summary>
+            Insert whole Dataset into the current library
+            </summary>
+            <param name="machineLibraryXML"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisor.Maths.Roatate2D.#ctor(System.Double,System.Double,System.Double)">
+            <summary>
+            		''' Set angle to rotate out points
+            		''' </summary>
+            		''' <param name="Angle_"></param>
+            		''' <remarks></remarks>
+        </member>
+        <member name="T:HSMAdvisor.TemplateRenderer">
+            <summary>
+            This class has methods used for rendering templates as HTML
+            </summary>
+        </member>
+        <member name="F:HSMAdvisor.SelectTool_DLG.CommentFilter">
+            <summary>
+            Simple Filter by Tool or Cut comment string
+            </summary>
+            <remarks></remarks>
+        </member>
+        <member name="M:HSMAdvisor.Module1.CurrentDomain_AssemblyResolve(System.Object,System.ResolveEventArgs)">
+            <summary>
+            Load any assemplies from HSMAdvisor EXE folder or HSMAdvisor EXE folder + \plugins
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisor.Module1.Send_Tick(HSMAdvisor.Licence_,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="lic"></param>
+            <param name="Silent_Mode">0-Errors and Messages, 1-Errors Only,2-Nothing,3-Silent,Return True if Server is unreachable</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:HSMAdvisor.Module1.time">
+            <summary>
+            Get a current timestamp
+            </summary>
+            <returns>Seconds</returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:HSMAdvisor.Module1.u_convert(System.Double,System.String)">
+            <summary>
+            IN
+            IN/MIN
+            F/MIN
+            HP/IN^3
+            HP
+            IN^3
+            FT-LB
+            MM
+            MM/MIN
+            M/MINin³
+            KW/CM^3
+            CM^3
+            N-M
+            </summary>
+            <param name="val"></param>
+            <param name="from_unit"></param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:HSMAdvisor.Module1.Max(System.Double,System.Double)">
+            <summary>
+            Return Largest of two values
+            </summary>
+            <param name="val1"></param>
+            <param name="val2"></param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:HSMAdvisor.Module1.Min(System.Double,System.Double)">
+            <summary>
+            Return Smaller of two values
+            </summary>
+            <param name="val1"></param>
+            <param name="val2"></param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:HSMAdvisor.Module1.X_Y_Delta(System.Double,System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Find value Y using known X For a line defined with coordinates (x1,y1)(x2,y2) 
+            </summary>
+            <param name="X1"></param>
+            <param name="X2"></param>
+            <param name="Y1"></param>
+            <param name="Y2"></param>
+            <param name="X"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisor.Module1.StD(System.Object,System.Int32)">
+            <summary>
+            Convert String (fraction or decimal) to Double 
+            </summary>
+            <param name="val_"></param>
+            <param name="Rounding"></param>
+            <returns>integer, 0 if fails</returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:HSMAdvisor.Module1.NormalizeDecimalToCurrentCulture(System.String)">
+            <summary>
+            Normalizes the decimal separator in a numeric string to match the current culture's formatting conventions.
+            </summary>
+            <remarks>This method removes group separators and normalizes the decimal separator to the one
+            used by the current culture. It does not attempt to parse or validate the numeric value. If both the
+            culture's decimal separator and a common alternate separator are present in the input, the method returns
+            the input unchanged to avoid ambiguity.</remarks>
+            <param name="input">The input string representing a numeric value to be normalized. May contain alternate decimal or group
+            separators.</param>
+            <returns>A string with the decimal separator replaced to match the current culture. If both possible decimal
+            separators are present, or if the input is null, empty, or whitespace, the original input is returned.</returns>
+        </member>
+        <member name="M:HSMAdvisor.Module1.StI(System.Object)">
+            <summary>
+            Convert String (franction or decimal) to Integer
+            </summary>
+            <param name="val_"></param>
+            <returns>Integer, 0 if fails</returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:HSMAdvisor.Module1.StB(System.Object)">
+            <summary>
+            Convert String to Boolean
+            </summary>
+            <param name="val_"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisor.Module1.DT_Append_Table(System.Data.DataTable@,System.Data.DataTable)">
+            <summary>
+            Safely Append a Table to another table. Copying is done using column names and NOT indexes
+            </summary>
+            <param name="DATAT"></param>
+            <param name="dt2"></param>
+            <remarks></remarks>
+        </member>
+        <member name="M:HSMAdvisor.Module1.ROW_Copy(System.Data.DataRow@)">
+            <summary>
+            Copy Row from one table to another
+            </summary>
+            <param name="row"></param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:HSMAdvisor.Module1.Get_Rows(System.Data.DataTable,System.String,System.String)">
+            <summary>
+            Get DataTable containing sorted rows that match "Where" search pattern
+            </summary>
+            <param name="DATAT">Data Table</param>
+            <param name="Where">column1='value' coulm2='value2' coulm3='vlue3' </param>
+            <param name="sort">column1 ASC, column2 DESC</param>
+            <returns>DataTable</returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:HSMAdvisor.Tool_Library_.NotAuthenticatedPurgeLocalLibraries">
+            <summary>
+            Check if user is logged in and return false
+            In user is not logged in, purge local cloud libraries ad return true
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisor.Tool_Library_.Tool_Add(HSMAdvisorDatabase.ToolDataBase.Tool,System.Boolean)">
+            <summary>
+            Add tool to Database.
+            </summary>
+            <param name="_tool"></param>
+            <param name="SaveIfShared"></param>
+            <returns>GUID of the new tool</returns>
+        </member>
+        <member name="M:HSMAdvisor.Tool_Library_.Tool_Update(HSMAdvisorDatabase.ToolDataBase.Tool,System.Boolean)">
+            <summary>
+            Update Tool in the Library
+            </summary>
+            <param name="_tool"></param>
+            <param name="SaveIfShared"></param>
+        </member>
+        <member name="M:HSMAdvisor.Tool_Library_.Tool_Delete(HSMAdvisor.Calculation,System.Boolean)">
+            <summary>
+            Delete Tool from the library
+            </summary>
+            <param name="Cut"></param>
+            <param name="SaveIfShared"></param>
+        </member>
+        <member name="M:HSMAdvisor.Tool_Library_.Tool_Delete(System.String,System.Boolean)">
+            <summary>
+            Delete Tool by Guid
+            </summary>
+            <param name="GUID"></param>
+        </member>
+        <member name="M:HSMAdvisor.Tool_Library_.Cut_Delete(System.String,System.Boolean)">
+            <summary>
+            Delete Cut from the database
+            </summary>
+            <param name="GUID"></param>
+        </member>
+        <member name="M:HSMAdvisor.Tool_Library_.Cut_Add(HSMAdvisorDatabase.ToolDataBase.Cut,System.Boolean)">
+            <summary>
+            Properly add Cut to the tool
+            </summary>
+            <param name="_cut"></param>
+            <param name="SaveIfShared"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisor.Tool_Library_.Cut_Update(HSMAdvisorDatabase.ToolDataBase.Cut,System.Boolean)">
+            <summary>
+            Save changes made to the Cut in the DataBase
+            </summary>
+            <param name="_cut"></param>
+            <param name="SaveIfShared"></param>
+        </member>
+        <member name="M:HSMAdvisor.Tool_Library_.Tool_Lib_Delete(System.String,System.Boolean,System.Boolean)">
+            <summary>
+            Delete a tool library and all it's contents
+            </summary>
+            <param name="Libnname"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HSMAdvisor.Tool_Library_.DTAddColumn(System.Data.DataTable@,System.String,System.Type)">
+            <summary>
+            Add Column to a table if Does not Exist
+            </summary>
+            <param name="DT"></param>
+            <param name="ColumnName"></param>
+            <param name="ColumnType"></param>
+            <remarks></remarks>
+        </member>
+    </members>
+</doc>

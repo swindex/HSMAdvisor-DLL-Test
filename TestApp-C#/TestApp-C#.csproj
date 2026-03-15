@@ -33,6 +33,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="HSMAdvisorCore">
+      <HintPath>..\HSMAdvisorCore.dll</HintPath>
+    </Reference>
+    <Reference Include="HSMAdvisorDatabase">
+      <HintPath>..\HSMAdvisorDatabase.dll</HintPath>
+    </Reference>
+    <Reference Include="HSMAdvisorPlugin">
+      <HintPath>..\HSMAdvisorPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,6 +58,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DemoTask.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +67,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tasks\AdvancedTasks.cs" />
+    <Compile Include="Tasks\CalculationTasks.cs" />
+    <Compile Include="Tasks\LicenseTasks.cs" />
+    <Compile Include="Tasks\MachineTasks.cs" />
+    <Compile Include="Tasks\MaterialTasks.cs" />
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HSMAdvisorPlugin</name>
+    </assembly>
+    <members>
+        <member name="T:HSMAdvisorPlugin.HSMAdvisorPluginInterface">
+            <summary>
+            HSMAdvisor Plugins must implement this interface 
+            </summary>
+        </member>
+        <member name="M:HSMAdvisorPlugin.PluginsReader.ReadPlugins(System.String)">
+            <summary>
+            Read a folder for DLL files
+            </summary>
+            <param name="fullDirPath"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
