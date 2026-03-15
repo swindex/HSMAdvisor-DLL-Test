@@ -6,6 +6,9 @@ The HSMAdvisorCore library used in this project is the same as the one used in t
 
 To learn more about HSMAdvisor and its features, visit the project's homepage at https://hsmadvisor.com/.
 
+## Screenshot
+![HSMAdvisor DLL Test Application Screenshot](Screenshot.png)
+
 ## Overview
 
 This demonstration application provides over 15 interactive tasks organized into 5 categories, each showcasing different aspects of the HSMAdvisor API:
